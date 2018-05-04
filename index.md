@@ -1,1 +1,1 @@
-[Windows Quick Access](WindowsQuickAccess.md)
+[Windows Quick Access](docs/WindowsQuickAccess.md)
