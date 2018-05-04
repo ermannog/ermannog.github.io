@@ -1,9 +1,5 @@
 ## Repositories
-<section>
-  {% for repo in site.repos %}
-      <a  href="{{ repo[1] }}">{{ repo[0] }}</a>
-  {% endfor %}
-</section>
+* [UPCleaner - User Profile Cleaner](https://github.com/ermannog/UPCleaner)
 
 ## Documents
 * [Windows Quick Access](docs/WindowsQuickAccess.md)
