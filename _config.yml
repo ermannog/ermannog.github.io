@@ -2,8 +2,8 @@ theme: jekyll-theme-minimal
 title: Ermanno Goletto
 description: on GitHub
 logo: https://www.devadmin.it/wp-content/uploads/2017/02/DevAdmin2-Trasparent-135-MVPHorizontal.png
+favicon: /assets/images/favicon.ico
 show_downloads: false
-favicon: favicon.ico
 
 github:
   is_project_page: false
