@@ -22,7 +22,7 @@
 
 **Windos 10 User Profiles Root Folder:** *`shell:UserProfiles`*
 
-## Notes
-- Windows 10 exposes all the user accessible folders using Windows Explorer through the command *"Shell"*, it is possible find the Windows special folder names examining the the *Name* value in the registry entries of the registry key *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions*
+## Notes:
+Windows 10 exposes all the user accessible folders using Windows Explorer through the command *"Shell"*, it is possible find the Windows special folder names examining the the *Name* value in the registry entries of the registry key *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions*.
 
 [Home](/)
