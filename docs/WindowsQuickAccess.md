@@ -4,6 +4,8 @@
 
 **Stored User Names and Passwords:** *`rundll32.exe keymgr.dll,KRShowKeyMgr`*
 
+# Windows 10 Special Folders Quick Access
+
 **Windos 10 Administrative Tools Folder:** *`shell:Common Administrative Tools`*
 
 **Windos 10 Apps Folder:** *`shell:AppsFolder`*
