@@ -6,5 +6,6 @@
 * [SysInfoHTA - System Information HTML Application](https://github.com/ermannog/SysInfoHTA)
 * [UPCleaner - User Profile Cleaner](https://github.com/ermannog/UPCleaner)
 * [Windows Batch scripts](https://github.com/ermannog/BatchScripts)
+* [WMI Query](https://github.com/ermannog/WMI)
 ## Documents
 * [Windows Quick Access](docs/WindowsQuickAccess.md)
