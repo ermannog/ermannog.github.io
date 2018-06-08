@@ -7,5 +7,6 @@
 * [UPCleaner - User Profile Cleaner](https://github.com/ermannog/UPCleaner)
 * [Windows Batch scripts](https://github.com/ermannog/BatchScripts)
 * [WMI Query](https://github.com/ermannog/WMI)
+* [WSUS-CleanUp - Scripts for managing the cleanup of the updates in WSUS](https://github.com/ermannog/WSUS-CleanUp)
 ## Documents
 * [Windows Quick Access](docs/WindowsQuickAccess.md)
