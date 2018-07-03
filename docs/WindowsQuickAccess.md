@@ -4,6 +4,8 @@
 
 **Stored User Names and Passwords:** *`rundll32.exe keymgr.dll,KRShowKeyMgr`*
 
+**Windows Updates_** *`C:\Windows\System32\control.exe /name Microsoft.WindowsUpdate`*
+
 # Windows 10 Special Folders Quick Access
 
 **Windos 10 Administrative Tools Folder:** *`shell:Common Administrative Tools`*
