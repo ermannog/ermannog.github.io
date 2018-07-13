@@ -9,4 +9,5 @@
 * [WMI Query](https://github.com/ermannog/WMI)
 * [WSUS-CleanUp - Scripts for managing the cleanup of the updates in WSUS](https://github.com/ermannog/WSUS-CleanUp)
 ## Documents
+* [Articles](docs/articles/server/2015 - Manutenzione WSUS.pdf)
 * [Windows Quick Access](docs/WindowsQuickAccess.md)
