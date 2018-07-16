@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-a#forkme_banner {visibility: hidden};
+a#forkme_banner {display: none;};
 /*.view-on-github {display: none;}*/
 /*.project_tagline {display: none;}*/
 /*#view-on-github {visibility: hidden}*/
