@@ -4,4 +4,5 @@
 
 ## Windows Server
 * [2015 - Manutenzione di WSUS](server/2015%20-%20Manutenzione%20WSUS.pdf)
-* [2014 - WS2012R2 Pianificazione e configurazione del CSV](server/2014%20-%20WS2012R2%20Pianificazione%20e%20configurazione%20del%20CSV.pdf)
+* [2014 - Windows Server 2012 R2 Configurazione reti Hyper-V cluster](server/2014%20-%20WS2012R2%20Configurazione%20reti%20Hyper-V%20cluster.pdf)
+* [2014 - Windows Server 2012 R2 Pianificazione e configurazione del CSV](server/2014%20-%20WS2012R2%20Pianificazione%20e%20configurazione%20del%20CSV.pdf)
