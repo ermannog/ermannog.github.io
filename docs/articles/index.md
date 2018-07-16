@@ -1,3 +1,6 @@
+## Legal
+* [2018 - Gestione della privacy e cookie policy in WordPress tramite Iubenda](legal/2018%20-%20Gestione%20della%20privacy%20e%20cookie%20policy%20in%20WordPress%20tramite%20Iubenda.pdf)
+
 ## Networking
 * [2015 - IPv6 Overview](networking/2015%20-%20IPv6%20Overview.pdf)
 * [2014 - Windows Server 2012 R2 NIC Teaming load balancing](networking/2014%20-%20WS2012R2%20NIC%20Teaming%20load%20balancing.pdf)
