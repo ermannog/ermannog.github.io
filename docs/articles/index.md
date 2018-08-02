@@ -1,6 +1,4 @@
-
-##Articles
-
+# Articles
 
 ## Legal
 * [2018 - Gestione della privacy e cookie policy in WordPress tramite Iubenda](legal/2018%20-%20Gestione%20della%20privacy%20e%20cookie%20policy%20in%20WordPress%20tramite%20Iubenda.pdf)
