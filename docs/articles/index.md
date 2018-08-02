@@ -1,3 +1,4 @@
+[Home](/)
 # Articles
 
 ## Legal
