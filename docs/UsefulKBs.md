@@ -9,3 +9,5 @@
 > **_DefaultUserName:_** *username (REG_SZ)*
 >
 > **_DefaultPassword:_** *password (REG_SZ)*
+
+**[KB971058](https://support.microsoft.com/en-us/help/971058/how-do-i-reset-windows-update-components):** *`How do I reset Windows Update components?`*
