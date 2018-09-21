@@ -5,7 +5,7 @@
 > **_Registry key:_** *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon*
 >
 > **_AutoAdminLogon:_** *1 (REG_SZ)*
-
+>
 > **_DefaultUserName:_** *username (REG_SZ)*
-
+>
 > **_DefaultPassword:_** *password (REG_SZ)*
