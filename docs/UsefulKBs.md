@@ -2,14 +2,10 @@
 # Useful KBs
 
 **[KB324737](https://support.microsoft.com/en-us/help/324737/how-to-turn-on-automatic-logon-in-windows):** *`How to turn on automatic logon in Windows`*
+> **_Registry key:_** *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon*
+
 > **_AutoAdminLogon:_** *1 (REG_SZ)*
-> **_Registry key:_** *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon*
-> **_Registry key:_** *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon*
-> **_Registry key:_** *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon*
 
+> **_DefaultUserName:_** *username (REG_SZ)*
 
-
-
-https://support.microsoft.com/en-us/help/324737/how-to-turn-on-automatic-logon-in-windows
-
-[AutoTelnet - Telnet automation tool](https://github.com/ermannog/AutoTelnet)
+> **_DefaultPassword:_** *password (REG_SZ)*
