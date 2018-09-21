@@ -6,3 +6,5 @@
 
 
 https://support.microsoft.com/en-us/help/324737/how-to-turn-on-automatic-logon-in-windows
+
+[AutoTelnet - Telnet automation tool](https://github.com/ermannog/AutoTelnet)
