@@ -2,7 +2,10 @@
 # Useful KBs
 
 **[KB324737](https://support.microsoft.com/en-us/help/324737/how-to-turn-on-automatic-logon-in-windows):** *`How to turn on automatic logon in Windows`*
-> **_Note:_** *There are sub-keys named with unique GUIDs, every GUID stands for a package deployed via Software Installation.*
+> **_AutoAdminLogon:_** *1 (REG_SZ)*
+> **_Registry key:_** *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon*
+> **_Registry key:_** *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon*
+> **_Registry key:_** *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon*
 
 
 
