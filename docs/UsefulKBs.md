@@ -1,6 +1,9 @@
 [Home](/)
 # Useful KBs
 
+## Office
+** [Uninstall Office from a PC](https://support.office.com/en-us/article/uninstall-office-from-a-pc-9dd49b83-264a-477a-8fcc-2fdf5dbf61d8)
+
 ## Operating System
 
 **[KB324737](https://support.microsoft.com/en-us/help/324737/how-to-turn-on-automatic-logon-in-windows):** *`How to turn on automatic logon in Windows`*
