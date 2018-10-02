@@ -1,6 +1,8 @@
 [Home](/)
 # Useful KBs
 
+## Operating System
+
 **[KB324737](https://support.microsoft.com/en-us/help/324737/how-to-turn-on-automatic-logon-in-windows):** *`How to turn on automatic logon in Windows`*
 > **_Registry key:_** *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon*
 >
