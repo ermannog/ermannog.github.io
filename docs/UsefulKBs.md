@@ -3,10 +3,10 @@
 
 ## Office
 
-**[Uninstall Office from a PC](https://support.office.com/en-us/article/uninstall-office-from-a-pc-9dd49b83-264a-477a-8fcc-2fdf5dbf61d8)**
+**[Uninstall Office from a PC](https://support.office.com/en-us/article/uninstall-office-from-a-pc-9dd49b83-264a-477a-8fcc-2fdf5dbf61d8)** *`The following steps describe how to uninstall Office products on a PC`*
 > **[Easy fix tool](https://aka.ms/diag_officeuninstall)**
 >
-> **_Manually uninstall Office:_** *(https://support.office.com/en-us/article/manually-uninstall-office-4e2904ea-25c8-4544-99ee-17696bb3027b)*
+> **[Manually uninstall Office](https://support.office.com/en-us/article/manually-uninstall-office-4e2904ea-25c8-4544-99ee-17696bb3027b)**
 
 ## Operating System
 
