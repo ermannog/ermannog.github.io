@@ -2,7 +2,7 @@
 # Articles
 
 ## Applications
-* [2018 - Novità di Office 2019 per IT Pro.pdf](articles/applications/2018%20-%20Novità%20di%20Office%202019%20per%20IT%20Pro.pdf)
+* [2018 - Novità di Office 2019 per IT Pro.pdf](applications/2018%20-%20Novità%20di%20Office%202019%20per%20IT%20Pro.pdf)
 
 ## Legal
 * [2018 - Gestione della privacy e cookie policy in WordPress tramite Iubenda](legal/2018%20-%20Gestione%20della%20privacy%20e%20cookie%20policy%20in%20WordPress%20tramite%20Iubenda.pdf)
