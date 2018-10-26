@@ -23,6 +23,8 @@
 
 **Windos 10 Updates Folder:** *`shell:AppUpdatesFolder`*
 
+**Windos 10 User Pinned Folder:** *`shell:User Pinned`*
+
 **Windos 10 User Profiles Root Folder:** *`shell:UserProfiles`*
 
 ## Notes:
