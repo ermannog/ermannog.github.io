@@ -1,4 +1,4 @@
-[Home](/)
+[Articles](/)
 # Security
 
 ## 2018-01
