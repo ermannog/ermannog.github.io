@@ -1,4 +1,4 @@
-[Articles](/articles)
+[Articles](/docs/articles)
 # Security
 
 ## 2018-01
