@@ -5,7 +5,8 @@
 * [2018 - Novità di Office 2019 per IT Pro.pdf](applications/2018%20-%20Novità%20di%20Office%202019%20per%20IT%20Pro.pdf){:target="_blank"}
 
 ## Legal
-* [2018 - Gestione della privacy e cookie policy in WordPress tramite Iubenda](legal/2018%20-%20Gestione%20della%20privacy%20e%20cookie%20policy%20in%20WordPress%20tramite%20Iubenda.pdf){:target="_blank"}
+* [2018 -Firme Elettroniche e riferimenti normativi](legal/2018-02/Firme%20Elettroniche%20e%20riferimenti%20normativi.pdf){:target="_blank"}
+* [2018 - Gestione della privacy e cookie policy in WordPress tramite Iubenda](legal/2018-01/Gestione%20della%20privacy%20e%20cookie%20policy%20in%20WordPress%20tramite%20Iubenda.pdf){:target="_blank"}
 
 ## Networking
 * [2015 - IPv6 Overview](networking/2015%20-%20IPv6%20Overview.pdf){:target="_blank"}
