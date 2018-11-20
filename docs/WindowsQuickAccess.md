@@ -5,9 +5,11 @@
 
 **Stored User Names and Passwords:** *`rundll32.exe keymgr.dll,KRShowKeyMgr`*
 
-**Windows Updates (method 1):** *`control.exe /name Microsoft.WindowsUpdate`*
+**Windows Updates:** *`control.exe /name Microsoft.WindowsUpdate`*
 
-**Windows Updates (method 2):** *`ms-settings:windowsupdate`*
+# Windows 10 Quick Access
+
+**Windows Updates:** *`ms-settings:windowsupdate`*
 
 # Windows 10 Special Folders Quick Access
 
