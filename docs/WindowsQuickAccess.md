@@ -21,6 +21,8 @@
 
 **Windos 10 Startup Folder:** *`shell:Startup`*
 
+**Windos 10 Startup Folder for all users:** *`shell:common startup`*
+
 **Windos 10 Updates Folder:** *`shell:AppUpdatesFolder`*
 
 **Windos 10 User Pinned Folder:** *`shell:User Pinned`*
