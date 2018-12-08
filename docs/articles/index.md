@@ -2,7 +2,7 @@
 # Articles
 
 ## Applications
-* [2018 - Novità di Office 2019 per IT Pro.pdf](applications/2018%20-%20Novità%20di%20Office%202019%20per%20IT%20Pro.pdf){:target="_blank"}
+* [2018 - Novità di Office 2019 per IT Pro.pdf](applications/2018-01/2018%20-%20Novità%20di%20Office%202019%20per%20IT%20Pro.pdf){:target="_blank"}
 
 ## Legal
 * [2018 - Posta elettronica certificata riferimenti normativi e funzionamento](legal/2018-03/Posta%20elettronica%20certificata%20riferimenti%20normativi%20e%20funzionamento.pdf){:target="_blank"}
