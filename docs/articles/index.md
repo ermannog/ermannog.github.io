@@ -14,7 +14,7 @@
 * [2014 - Windows Server 2012 R2 NIC Teaming load balancing](networking/2014%20-%20WS2012R2%20NIC%20Teaming%20load%20balancing.pdf){:target="_blank"}
 
 ## Platform
-* [2018 - Windows 10 Enterprise LTSC 2019](security/2018-01/Windows%2010%20Enterprise%20LTSC%202019.pdf){:target="_blank"}
+* [2018 - Windows 10 Enterprise LTSC 2019](platform/2018-01/Windows%2010%20Enterprise%20LTSC%202019.pdf){:target="_blank"}
 
 ## Security
 * [2018 - Ricariche USB pubbliche e sicurezza](security/2018-02/Ricariche%20USB%20pubbliche%20e%20sicurezza.pdf){:target="_blank"}
