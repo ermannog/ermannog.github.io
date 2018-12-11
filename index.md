@@ -9,6 +9,7 @@
 * [WMI Query](https://github.com/ermannog/WMI)
 * [WSUS-CleanUp - Scripts for managing the cleanup of the updates in WSUS](https://github.com/ermannog/WSUS-CleanUp)
 ## Documents
+* [Articles - Applications](docs/articles/applications)
 * [Articles](docs/articles/)
 * [Windows Quick Access](docs/WindowsQuickAccess.md)
 * [Registry Keys](docs/RegistryKeys.md)
