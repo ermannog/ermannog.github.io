@@ -13,6 +13,8 @@
 * [2015 - IPv6 Overview](networking/2015%20-%20IPv6%20Overview.pdf){:target="_blank"}
 * [2014 - Windows Server 2012 R2 NIC Teaming load balancing](networking/2014%20-%20WS2012R2%20NIC%20Teaming%20load%20balancing.pdf){:target="_blank"}
 
+## [Platform](platform){:target="_blank"}
+
 ## Security
 * [2018 - Ricariche USB pubbliche e sicurezza](security/2018-02/Ricariche%20USB%20pubbliche%20e%20sicurezza.pdf){:target="_blank"}
 * [2018 - Classifica delle soluzioni Firewall e UTM secondo Gartner nel triennio 2015-2017](security/2018-01/Classifica%20delle%20soluzioni%20Firewall%20e%20UTM%20secondo%20Gartner%20nel%20triennio%202015-2017.pdf){:target="_blank"}
