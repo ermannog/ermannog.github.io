@@ -10,6 +10,7 @@
 * [WSUS-CleanUp - Scripts for managing the cleanup of the updates in WSUS](https://github.com/ermannog/WSUS-CleanUp)
 ## Documents
 * [Articles](docs/articles/)
+* [Slides](docs/slides/)
 * [Windows Quick Access](docs/WindowsQuickAccess.md)
 * [Registry Keys](docs/RegistryKeys.md)
 * [Useful KBs](docs/UsefulKBs.md)
