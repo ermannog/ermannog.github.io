@@ -1,4 +1,4 @@
-# Meetup TTG - ICTPower (13 dec 2018 Torinox)
+# Meetup TTG - ICTPower (13 dec 2018 Torino)
 
 __Titolo:__ *Public Key Infrastructure Windows e Let's Encrypt*
 
