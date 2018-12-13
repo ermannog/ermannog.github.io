@@ -1,5 +1,6 @@
 # Meetup TTG - ICTPower (13 dec 2018 Torino)
-## Public Key Infrastructure Windows e Let's Encrypt
+
+__Sessione:__ *Public Key Infrastructure Windows e Let's Encrypt*
 
 ![](TTG-2018-12-13.png)
 
