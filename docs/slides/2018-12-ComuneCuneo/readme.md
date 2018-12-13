@@ -1,4 +1,4 @@
-# Piano Formativo 2018 Comune di Cuneo (10 dec 2018 Cuneo)
+# Corso Comune di Cuneo (10 dec 2018 Cuneo)
 
 ![](ComuneCuneo-2018-12-10.png)
 
