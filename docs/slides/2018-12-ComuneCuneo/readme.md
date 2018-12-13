@@ -9,5 +9,7 @@ __Abstract:__
 __Slide:__ [GDPR principali minacce e misure tecniche.pptx](GDPR%20%20principali%20minacce%20e%20misure%20tecniche.pptx)
 
 __Documenti:__ 
-* [Gazzetta Ufficiale Anno 158 Numero 103](GU-158-103.pdf){:target="_blank"}
-* [Rapporto_Clusit_2018_aggiornamento_settembre](Rapporto_Clusit_2018_aggiornamento_settembre.pdf){:target="_blank"}
+* [Intervista ad Antonello Soro - "Nuovo attacco di Anonymous Italia: diffusi i dati di ministeri e polizia" ("La Repubblica", 6 novembre 2018)](Docs/GarantePrivacy-9056929-1.4.pdf){:target="_blank"}
+* [Circolare AgID 2/2017](Docs/CircolareAgID_170418_n_2_2017_Mis_minime_sicurezza_ICT_PA-GU-103-050517.pdf){:target="_blank"}
+* [Gazzetta Ufficiale Anno 158 Numero 103](Docs/GU-158-103.pdf){:target="_blank"}
+* [Rapporto_Clusit_2018_aggiornamento_settembre](Docs/Rapporto_Clusit_2018_aggiornamento_settembre.pdf){:target="_blank"}
