@@ -8,3 +8,6 @@ __Abstract:__
 
 __Slide:__ [GDPR principali minacce e misure tecniche.pptx](GDPR%20%20principali%20minacce%20e%20misure%20tecniche.pptx)
 
+__Documenti:__ 
+* [Gazzetta Ufficiale Anno 158 Numero 103](GU-158-103.pdf)
+* [Rapporto_Clusit_2018_aggiornamento_settembre](Rapporto_Clusit_2018_aggiornamento_settembre.pdf)
