@@ -1,4 +1,4 @@
-# Sessione del 13 dec 2018 TTG - ICTPower (Torino)
+# Meetup 13 dec 2018 TTG - ICTPower (Torino)
 
 __Titolo:__
 
