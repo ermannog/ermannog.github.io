@@ -11,4 +11,3 @@ __Abstract:__
 __Slide:__
 
 [Public Key Infrastructure Windows e Let's Encrypt.pptx](Public%20Key%20Infrastructure%20Windows%20e%20Let's%20Encrypt.pptx){:target="_blank"}
- dec  dec
