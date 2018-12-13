@@ -1,3 +1,5 @@
+# Sessione del 13 dec 2018 TTG - ICTPower (Torino)
+
 __Titolo:__
 
 *Public Key Infrastructure Windows e Let's Encrypt*
@@ -9,3 +11,4 @@ __Abstract:__
 __Slide:__
 
 [Public Key Infrastructure Windows e Let's Encrypt.pptx](Public%20Key%20Infrastructure%20Windows%20e%20Let's%20Encrypt.pptx){:target="_blank"}
+ dec  dec
