@@ -6,7 +6,7 @@ __Abstract:__
 
 *Analisi delle misure minime di sicurezza informatica che devono essere adottate al fine di contrastare le minacce più comuni e frequenti per le pubbliche amministrazioni.*
 
-__Slide:__ [GDPR principali minacce e misure tecniche.pptx](GDPR%20%20principali%20minacce%20e%20misure%20tecniche.pptx)
+__Slide:__ [GDPR principali minacce e misure tecniche.pdf](GDPR%20%20principali%20minacce%20e%20misure%20tecniche.pdf)
 
 __Documenti:__ 
 * [Intervista ad Antonello Soro - "Nuovo attacco di Anonymous Italia: diffusi i dati di ministeri e polizia" ("La Repubblica", 6 novembre 2018)](Docs/GarantePrivacy-9056929-1.4.pdf){:target="_blank"}
