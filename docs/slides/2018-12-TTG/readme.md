@@ -1,8 +1,13 @@
 # Meetup TTG - ICTPower (13 dec 2018 Torino)
 
 ![](TTG-2018-12-13.png)
-[![Alt text](TTG-2018-12-13.png)](https://www.youtube.com/watch?v=i7uFShDnDPk)
-<video src="https://www.youtube.com/watch?v=i7uFShDnDPk" poster="TTG-2018-12-13.png" width="320" height="200" controls preload></video>
+
+xxxx
+
+[![Watch the video](TTG-2018-12-13.png)](https://www.youtube.com/watch?v=i7uFShDnDPk)
+
+
+xxxx
 
 __Abstract:__
 
