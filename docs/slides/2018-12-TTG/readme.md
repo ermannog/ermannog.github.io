@@ -1,6 +1,7 @@
 # Meetup TTG - ICTPower (13 dec 2018 Torino)
 
 ![](TTG-2018-12-13.png)
+![Alt text](TTG-2018-12-13.png)](https://www.youtube.com/watch?v=i7uFShDnDPk)
 
 __Abstract:__
 
