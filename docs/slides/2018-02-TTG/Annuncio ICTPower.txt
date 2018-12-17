@@ -1,0 +1,23 @@
+Active Directory disaster recovery Meetup TTG - ICTPower, giovedì 15 febbraio 2018
+
+Active Directory rappresenta il cuore delle moderne infrastrutture Windows basate su sistemi operativi Windows. 
+
+
+Nel meetup del 15 febbraio organizzato da Torino Technologies Group in collaborazione con ICTPower.it Ermanno Goletto (MVP Cloud and Datacenter Management) e Roberto Massa (MVP Cloud and Datacenter Management) analizzeranno in modo dettagliato i componenti di Active Directory il loro impatto sul sistema in caso di malfunzionamento.
+
+Inoltre verranno approfondite le Best Practices e gli strumenti a disposizione nelle varie versioni di Windows Server per eseguire il troubleshooting e il disaster recovery di Active Directory.
+
+
+L’evento inizia alle 18 e termina alle 20 e si terrà presso il Microsoft Innovation Center (MIC) di Torino in c/o ISMB Via Pier Carlo Boggio 61 10138 Torino. Dopo le 20.00 per chi desidera continuare a chiacchierare può concludere la serata in pizzeria.
+
+
+Di seguito l’agenda della sessione:
+Troubleshooting del DNS
+Troubleshooting di AD DS e della Replica AD
+Troubleshooting della Replica SYSVOL
+Scenari di Disaster Recovery
+Restore del System State
+Active Directory Snapshots
+Active Directory Recycle Bin
+
+Per le informazioni logistiche si faccia riferimento al seguente link http://www.torinotechnologiesgroup.it/eventi/20180215.
