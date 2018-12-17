@@ -9,6 +9,8 @@ xxxx
 
 xxxx
 
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/i7uFShDnDPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 __Abstract:__
 
 *Nelle moderne infrastrutture informatiche la gestione dei certificati digitali è una delle attività che stanno alla base di una corretta politica della sicurezza informatica. Nella prima parte della sessione verrano analizzati le architetture di installazione di una Cerification Autority in ambiente Windows Sever per piccole, medie e grandi aziende e saranno discusse le best practices di gestione della Security e del Backup di una CA. Nella seconda parte dell sessione verrà invece approfondito come utilizzare la Certification Authority Pubblica gratuita Lets'encrypt per la gestione automatizzata del ciclo di vita dei certificati digitali.*
