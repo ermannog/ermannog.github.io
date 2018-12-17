@@ -11,7 +11,3 @@ __Slide:__ [Public Key Infrastructure Windows e Let's Encrypt.pdf](Public%20Key%
 __Video:__ 
 
 [![Meetup TTG - ICTPower 13 dec 2018 Torino](http://img.youtube.com/vi/i7uFShDnDPk/0.jpg)](http://www.youtube.com/watch?v=i7uFShDnDPk "Meetup TTG - ICTPower 13 dec 2018 Torino"){:target="_blank"}
-
-
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=i7uFShDnDPk" target="_blank"><img src="http://img.youtube.com/vi/i7uFShDnDPk/0.jpg" alt="Meetup TTG - ICTPower 13 dec 2018 Torino" width="240" height="180" border="10" /></a>
