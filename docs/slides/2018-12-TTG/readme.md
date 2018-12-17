@@ -4,7 +4,7 @@
 
 xxxx
 
-[![Watch the video](TTG-2018-12-13.png)](https://www.youtube.com/watch?v=i7uFShDnDPk)
+[![Incontro TTG 13 dicembre 2018](http://img.youtube.com/vi/i7uFShDnDPk/0.jpg)](http://www.youtube.com/watch?v=i7uFShDnDPk "Incontro TTG 13 dicembre 2018")
 
 
 xxxx
