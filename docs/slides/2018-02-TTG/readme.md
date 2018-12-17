@@ -8,8 +8,8 @@ __Abstract:__
 
 __Slide:__
 
-[Public Key Infrastructure Windows e Let's Encrypt.pdf](Public%20Key%20Infrastructure%20Windows%20e%20Let's%20Encrypt.pdf){:target="_blank"}
+[Gestione del disaster recovery di Active Directory.pdf](Gestione%20del%20disaster%20recovery%20di%20Active%20Directory.pdf){:target="_blank"}
 
 __Video:__ 
 
-[![Meetup TTG - ICTPower 13 dec 2018 Torino](http://img.youtube.com/vi/i7uFShDnDPk/0.jpg)](http://www.youtube.com/watch?v=i7uFShDnDPk "Meetup TTG - ICTPower 13 dec 2018 Torino"){:target="_blank"}
+[![Meetup TTG - ICTPower (15 feb 2018 Torino)](http://img.youtube.com/vi/eUST4ICz3mI/0.jpg)](http://www.youtube.com/watch?v=eUST4ICz3mI "Meetup TTG - ICTPower (15 feb 2018 Torino)"){:target="_blank"}
