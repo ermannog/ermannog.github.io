@@ -17,7 +17,7 @@
 * [2018 - Windows 10 Enterprise LTSC 2019](platform/2018-01/Windows%2010%20Enterprise%20LTSC%202019.pdf){:target="_blank"}
 
 ## Security
-* [2018/03: IoT Security Analysis 2018](2018-03/IoT%20Security%20Analysis%202018.pdf){:target="_blank"}
+* [2018 - IoT Security Analysis 2018](2018-03/IoT%20Security%20Analysis%202018.pdf){:target="_blank"}
 * [2018 - Ricariche USB pubbliche e sicurezza](security/2018-02/Ricariche%20USB%20pubbliche%20e%20sicurezza.pdf){:target="_blank"}
 * [2018 - Classifica delle soluzioni Firewall e UTM secondo Gartner nel triennio 2015-2017](security/2018-01/Classifica%20delle%20soluzioni%20Firewall%20e%20UTM%20secondo%20Gartner%20nel%20triennio%202015-2017.pdf){:target="_blank"}
 
