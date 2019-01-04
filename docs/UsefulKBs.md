@@ -22,3 +22,5 @@
 **[KB971058](https://support.microsoft.com/en-us/help/971058/how-do-i-reset-windows-update-components):** *`How do I reset Windows Update components?`*
 
 **[KB4096063](https://support.microsoft.com/en-us/help/4096063/new-wmi-arbitrator-behavior-in-windows-server):** *`New WMI arbitrator behavior in Windows Server 2012 R2, Windows Server 2016, and Windows Server 2019`*
+
+**[KB842715](https://support.microsoft.com/en-us/help/842715/overview-of-problems-that-may-occur-when-administrative-shares-are-mis):** *`Overview of problems that may occur when administrative shares are missing`*
