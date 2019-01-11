@@ -24,3 +24,5 @@
 **[KB4096063](https://support.microsoft.com/en-us/help/4096063/new-wmi-arbitrator-behavior-in-windows-server):** *`New WMI arbitrator behavior in Windows Server 2012 R2, Windows Server 2016, and Windows Server 2019`*
 
 **[KB842715](https://support.microsoft.com/en-us/help/842715/overview-of-problems-that-may-occur-when-administrative-shares-are-mis):** *`Overview of problems that may occur when administrative shares are missing`*
+
+**[KB842715](https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts):** *`Keyboard shortcuts in Windows`*
