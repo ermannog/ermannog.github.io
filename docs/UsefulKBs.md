@@ -8,6 +8,7 @@
 >
 > **[Manually uninstall Office](https://support.office.com/en-us/article/manually-uninstall-office-4e2904ea-25c8-4544-99ee-17696bb3027b)**
 
+**[KB971058](https://support.microsoft.com/en-us/help/2212902/unexpected-autodiscover-behavior-when-you-have-registry-settings-under):** *`Unexpected Autodiscover behavior when you have registry settings under the \Autodiscover key`*
 ## Operating System
 
 **[KB324737](https://support.microsoft.com/en-us/help/324737/how-to-turn-on-automatic-logon-in-windows):** *`How to turn on automatic logon in Windows`*
