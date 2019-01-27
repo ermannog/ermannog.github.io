@@ -27,3 +27,9 @@
 **[KB842715](https://support.microsoft.com/en-us/help/842715/overview-of-problems-that-may-occur-when-administrative-shares-are-mis):** *`Overview of problems that may occur when administrative shares are missing`*
 
 **[KB842715](https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts):** *`Keyboard shortcuts in Windows`*
+
+**[KB3064434](https://support.microsoft.com/en-us/help/3064434/windows-update-hangs-and-new-updates-are-uninstalled-after-a-restart):** *`Windows Update hangs and new updates are uninstalled after a restart`*
+> Locate the following subkey: HKLM\System\CurrentControlSet\Services\TrustedInstaller
+> Right-click the TrustedInstaller key, and then click Permissions.
+> Grant the Full Control user right to the Administrators group.
+> Change the BlockTimeIncrement value to 2a30 (Hexadecimal).
