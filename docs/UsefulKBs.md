@@ -31,8 +31,8 @@
 **[KB3064434](https://support.microsoft.com/en-us/help/3064434/windows-update-hangs-and-new-updates-are-uninstalled-after-a-restart):** *`Windows Update hangs and new updates are uninstalled after a restart`*
 > Locate the following subkey: _**HKLM\System\CurrentControlSet\Services\TrustedInstaller_**
 >
-> Right-click the _**TrustedInstaller key, and then click Permissions_**
+> Right-click the **_TrustedInstaller key, and then click Permissions_**
 >
-> Grant the _**Full Control user right to the Administrators group_**
+> Grant the **_Full Control user right to the Administrators group_**
 >
 > Change the **_BlockTimeIncrement_** value to 2a30 (Hexadecimal).
