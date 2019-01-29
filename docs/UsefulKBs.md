@@ -40,3 +40,7 @@
 **[KB3064434](https://support.microsoft.com/en-us/help/2533930/duplicate-folders-may-appear-after-enabling-folder-redirection):**
 *`Duplicate folders may appear after enabling Folder Redirection`*
 > When redirecting a user profile folder or folders using Group Policy, if the option "Move the contents of <folder> to the new location" is not selected there will be duplicate folders created in a user profile: one pointing to the redirected location and one on the local hard drive. Unless this option is selected, a duplicate link will be left behind, even when that folder is completely empty.
+>
+> **_This behavior is by design._**
+>
+> Local copies of the user profile folder(s) may be safely deleted if they are empty.
