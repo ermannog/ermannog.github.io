@@ -14,7 +14,7 @@
 * [2014 - Windows Server 2012 R2 NIC Teaming load balancing](networking/2014%20-%20WS2012R2%20NIC%20Teaming%20load%20balancing.pdf){:target="_blank"}
 
 ## Platform
-* [2019/01: Enterprise Mode per Internet Explorer 11 Deep Dive.pdf](platform/2019-01/Enterprise%20Mode%20per%20Internet%20Explorer%2011%20Deep%20Dive.pdf){:target="_blank"}
+* [2019 - Enterprise Mode per Internet Explorer 11 Deep Dive.pdf](platform/2019-01/Enterprise%20Mode%20per%20Internet%20Explorer%2011%20Deep%20Dive.pdf){:target="_blank"}
 * [2018 - Windows 10 Enterprise LTSC 2019](platform/2018-01/Windows%2010%20Enterprise%20LTSC%202019.pdf){:target="_blank"}
 
 ## Security
