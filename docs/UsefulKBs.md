@@ -48,3 +48,6 @@
 > **_This behavior is by design._**
 >
 > **_Local copies of the user profile folder(s) may be safely deleted if they are empty._**
+
+**[KB929852](https://support.microsoft.com/en-us/help/929852/guidance-for-configuring-ipv6-in-windows-for-advanced-users):**
+*`Guidance for configuring IPv6 in Windows for advanced users`*
