@@ -51,3 +51,11 @@
 
 **[KB929852](https://support.microsoft.com/en-us/help/929852/guidance-for-configuring-ipv6-in-windows-for-advanced-users):**
 *`Guidance for configuring IPv6 in Windows for advanced users`*
+> Windows Vista, Windows Server 2008, and later versions of Windows implement RFC 3484
+> and use a prefix table to determine which address to use when multiple addresses are available for a Domain Name System (DNS) name.
+> By default, Windows favors IPv6 global unicast addresses over IPv4 addresses.
+> It is common for IT administrators to want to disable IPv6.
+> This is often because of some unknown, networking-related issue, such as a name resolution issue.
+> **_Important Internet Protocol version 6 (IPv6) is a mandatory part of Windows Vista and Windows Server 2008 and newer versions._**
+> **_We do not recommend that you disable IPv6 or its components. If you do, some Windows components may not function._**
+> **_We recommend that you use “Prefer IPv4 over IPv6” in prefix policies instead of disabling IPV6._**
