@@ -59,3 +59,12 @@
 > **_Important Internet Protocol version 6 (IPv6) is a mandatory part of Windows Vista and Windows Server 2008 and newer versions._**
 > **_We do not recommend that you disable IPv6 or its components. If you do, some Windows components may not function._**
 > **_We recommend that you use “Prefer IPv4 over IPv6” in prefix policies instead of disabling IPV6._**
+
+**[KB4022522](https://support.microsoft.com/en-us/help/4022522/dcom-event-id-10016-is-logged-in-windows-10-windows-server):**
+*`DCOM event ID 10016 is logged in Windows`*
+> **_These 10016 events are recorded when Microsoft components tries to access DCOM components without the required permissions._**
+> **_In this case, this is expected and by design._**
+> A coding pattern has been implemented where the code first tries to access the DCOM components with one set of parameters.
+> If the first attempt is unsuccessful, it tries again with another set of parameters.
+> The reason why it does not skip the first attempt is because there are scenarios where it can succeed.
+> In those scenarios, that is preferable.
