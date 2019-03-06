@@ -11,6 +11,11 @@
 
 **Windows Updates:** *`ms-settings:windowsupdate`*
 
+**Sign-in options:** *`ms-settings:signinoptions`*
+
+## Notes:
+Fore more infos see [Launch the Windows Settings app](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/launch-settings-app)
+
 # Windows 10 Special Folders Quick Access
 
 **Windos 10 Administrative Tools Folder:** *`shell:Common Administrative Tools`*
