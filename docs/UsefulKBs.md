@@ -68,3 +68,13 @@
 > If the first attempt is unsuccessful, it tries again with another set of parameters.
 > The reason why it does not skip the first attempt is because there are scenarios where it can succeed.
 > In those scenarios, that is preferable.
+
+**[KB17588](https://support.microsoft.com/en-us/help/17588/windows-fix-problems-that-block-programs-being-installed-or-removed):**
+*`Fix problems that block programs from being installed or removed`*
+> What it fixes:
+> Corrupted registry keys on 64-bit operating systems
+> Corrupted registry keys that control the update data
+> Problems that prevent new programs from being installed
+> Problems that prevent existing programs from being completely uninstalled or updated
+> Problems that block you from uninstalling a program through Add or Remove Programs (or Programs and Features) in Control Panel
+> Runs on Windows 7, Windows 8, Windows 8.1, Windows 10
