@@ -5,7 +5,7 @@
 * [2018 - Novità di Office 2019 per IT Pro](applications/2018-01/Novità%20di%20Office%202019%20per%20IT%20Pro.pdf){:target="_blank"}
 
 ## IoT (Internet of Things)
-* [2019 - LoRa Nozioni di base e approfondimenti](IoT/2019-03/LoRa%20Nozioni%20di%20base%20e%20approfondimenti.pdf){:target="_blank"}
+* [2019 - LoRa Nozioni di base e approfondimenti](iot/2019-03/LoRa%20Nozioni%20di%20base%20e%20approfondimenti.pdf){:target="_blank"}
 
 ## Legal
 * [2018 - Posta elettronica certificata riferimenti normativi e funzionamento](legal/2018-03/Posta%20elettronica%20certificata%20riferimenti%20normativi%20e%20funzionamento.pdf){:target="_blank"}
