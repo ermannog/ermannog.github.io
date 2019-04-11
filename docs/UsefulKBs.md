@@ -37,7 +37,7 @@
 >
 > Change the **_BlockTimeIncrement_** value to 2a30 (Hexadecimal).
 
-*[KB3064434](https://support.microsoft.com/en-us/help/3064434/windows-update-hangs-and-new-updates-are-uninstalled-after-a-restart):** 
+**[KB2509192](https://support.microsoft.com/en-us/help/2509192/clientname-and-sessionname-enviroment-variable-may-be-missing):** 
 *`Clientname and Sessionname enviroment variable may be missing`*
 > When connecting remotely with Remote Desktop Connection, the environment variables **_CLIENTNAME_** and **_SESSIONNAME_**
 > are added to each process that is started.
