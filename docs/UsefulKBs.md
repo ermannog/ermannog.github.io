@@ -37,6 +37,14 @@
 >
 > Change the **_BlockTimeIncrement_** value to 2a30 (Hexadecimal).
 
+*[KB3064434](https://support.microsoft.com/en-us/help/3064434/windows-update-hangs-and-new-updates-are-uninstalled-after-a-restart):** 
+*`Clientname and Sessionname enviroment variable may be missing`*
+> When connecting remotely with Remote Desktop Connection, the environment variables **_CLIENTNAME_** and **_SESSIONNAME_**
+> are added to each process that is started.
+>
+> If you set the **_Folder Option "Launch folder windows in a separate process"_** and later launch an application
+> from an additional Explorer window, the application will not see these additional environment variables.
+
 **[KB3064434](https://support.microsoft.com/en-us/help/2533930/duplicate-folders-may-appear-after-enabling-folder-redirection):**
 *`Duplicate folders may appear after enabling Folder Redirection`*
 > When redirecting a user profile folder or folders using Group Policy,
