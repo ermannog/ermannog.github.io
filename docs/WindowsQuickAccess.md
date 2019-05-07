@@ -38,6 +38,8 @@ Fore more infos see [Launch the Windows Settings app](https://docs.microsoft.com
 
 **Windos 10 User Profiles Root Folder:** *`shell:UserProfiles`*
 
+**Windos 10 User Recycle Bin Folder:** *`shell:RecycleBinFolder`*
+
 ## Notes:
 Windows 10 exposes all the user accessible folders using Windows Explorer through the command *"Shell"*, it is possible find the Windows special folder names examining the the *Name* value in the registry entries of the registry key *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions*.
 
