@@ -14,3 +14,4 @@
 * [Windows Quick Access](docs/WindowsQuickAccess.md)
 * [Registry Keys](docs/RegistryKeys.md)
 * [Useful KBs](docs/UsefulKBs.md)
+* [Useful free tools](docs/UsefulFreeTools.md)
