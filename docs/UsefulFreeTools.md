@@ -3,4 +3,4 @@
 
 ## Development
 
-**[dotPeek](http://www.jetbrains.com/decompiler/?fromMenu)** *`TDecompile .NET assemblies to C#`*
+**[dotPeek](http://www.jetbrains.com/decompiler/?fromMenu)** *`Decompile .NET assemblies to C#`*
