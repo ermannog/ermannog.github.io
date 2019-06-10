@@ -92,3 +92,7 @@
 > Problems that block you from uninstalling a program through Add or Remove Programs (or Programs and Features) in Control Panel
 >
 > Runs on Windows 7, Windows 8, Windows 8.1, Windows 10
+
+**[KB4490414](https://support.microsoft.com/en-us/help/4490414/windows-server-update-services-best-practices):**
+*`Windows Server Update Services Best Practices`*
+> This article suggests best practices that can help you avoid configurations that experience poor performance because of design or configuration limitations in Windows Server Update Services (WSUS).
