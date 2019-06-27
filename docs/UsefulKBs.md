@@ -99,7 +99,7 @@
 
 
 **[KB4469275](https://support.microsoft.com/en-us/help/4469275/introduction-to-the-account-lockout-and-management-tools):**
-*`This article introduces Account Lockout and Management Tools.`*
+*`This article introduces Account Lockout and Management Tools`*
 > https://www.microsoft.com/download/details.aspx?id=18465
 >
 > This set of tools helps you manage accounts and troubleshoot account lockouts.
