@@ -96,3 +96,8 @@
 **[KB4490414](https://support.microsoft.com/en-us/help/4490414/windows-server-update-services-best-practices):**
 *`Windows Server Update Services Best Practices`*
 > This article suggests best practices that can help you avoid configurations that experience poor performance because of design or configuration limitations in Windows Server Update Services (WSUS).
+
+
+**[KB4469275](https://support.microsoft.com/en-us/help/4469275/introduction-to-the-account-lockout-and-management-tools):**
+*`This article introduces Account Lockout and Management Tools(https://www.microsoft.com/download/details.aspx?id=18465).`*
+> This set of tools helps you manage accounts and troubleshoot account lockouts.
