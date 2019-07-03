@@ -12,6 +12,9 @@
 * [2018 - Firme Elettroniche e riferimenti normativi](legal/2018-02/Firme%20Elettroniche%20e%20riferimenti%20normativi.pdf){:target="_blank"}
 * [2018 - Gestione della privacy e cookie policy in WordPress tramite Iubenda](legal/2018-01/Gestione%20della%20privacy%20e%20cookie%20policy%20in%20WordPress%20tramite%20Iubenda.pdf){:target="_blank"}
 
+## Licensing
+* [2019 - Considerazioni sul licensing degli RDS](licensing/2019-07/Considerazioni%20sul%20licensing%20degli%20RDS.pdf){:target="_blank"}
+
 ## Networking
 * [2015 - IPv6 Overview](networking/2015-01/IPv6%20Overview.pdf){:target="_blank"}
 * [2014 - Windows Server 2012 R2 NIC Teaming load balancing](networking/2014%20-%20WS2012R2%20NIC%20Teaming%20load%20balancing.pdf){:target="_blank"}
