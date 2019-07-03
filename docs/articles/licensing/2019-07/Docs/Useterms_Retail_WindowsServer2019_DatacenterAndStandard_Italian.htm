@@ -1,0 +1,824 @@
+﻿<!DOCTYPE html ><html xmlns:mscom="http://schemas.microsoft.com/CMSvNext" xmlns:md="http://schemas.microsoft.com/mscom-data" lang="en-us" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9; IE=10" /><link rel="shortcut icon" href="//www.microsoft.com/favicon.ico?v2" /><meta name="CorrelationVector" content="2pqu+g4H0Ea9imk2.22" /><meta name="Description" content="" /><meta name="MscomContentLocale" content="en-us" /><link rel="stylesheet" type="text/css" href="https://c.s-microsoft.com/en-us/CMSStyles/style.csx?k=3c9ade18-bc6a-b6bd-84c3-fc69aaaa7520_899796fc-1ab6-ed87-096b-4f10b915033c_e8d8727e-02f3-1a80-54c3-f87750a8c4de_6e5b2ac7-688a-4a18-9695-a31e8139fa0f_b3dad3e4-0853-1041-fa46-2e9d6598a584_fc29d27f-7342-9cf3-c2b5-a04f30605f03_28863b11-6a1b-a28c-4aab-c36e3deb3375_907fa087-b443-3de8-613e-b445338dad1f_a66bb9d1-7095-dfc6-5a12-849441da475c_1b0ca1a3-6da9-0dbf-9932-198c9f68caeb_ef11258b-15d1-8dab-81d5-8d18bc3234bc_11339d5d-cf04-22ad-4987-06a506090313_50edf96d-7437-c38c-ad33-ebe81b170501_8031d0e3-4981-8dbc-2504-bbd5121027b7_3f0c3b77-e132-00a5-3afc-9a2f141e9eae_aebeacd9-6349-54aa-9608-cb67eadc2d17_0cdb912f-7479-061d-e4f3-bea46f10a753_343d1ae8-c6c4-87d3-af9d-4720b6ea8f34_a905814f-2c84-2cd4-839e-5634cc0cc383_190a3885-bf35-9fab-6806-86ce81df76f6_05c744db-5e3d-bcfb-75b0-441b9afb179b_8beffb66-d700-2891-2c8d-02e40c7ac557_48141b02-5829-bdfe-4a40-39a6b768221b_5da65564-2c33-24ac-a3c7-e1dd6b2f123d_07f515a3-6873-4964-fa3b-782272d6ec60" /><script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js"></script><script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.1/jquery-ui.min.js"></script><script type="text/javascript" src="https://c.s-microsoft.com/en-us/CMSScripts/script.jsx?k=0502864a-b6ef-2f14-9f8e-267004d3a4e0_c5ea3348-55af-729a-2641-14f0312bacf3_742bd11f-3d7c-9955-3df5-f02b66689699_cb9d43d2-fbae-5b5c-827f-72166d6b87fc_49488e0d-6ae2-5101-c995-f4d56443b1d8_7dea7b90-4334-c043-b252-9f132d19ee19_38aa9ffb-ddb5-75be-6536-a58628f435f5_e3e65a0a-c133-43e7-571d-2293e03f85e6_4ca0e9dc-a4de-17ba-f0de-d1d346cb99e2_06310cd8-41c6-3b11-4645-b4884789ed70_5c27e8aa-9347-969e-39ac-37a4de428a8d_d6872b5a-5310-a73c-7cb3-227a3213a1c5_be92d794-4118-193f-9871-58b72092a5ac_64c742e2-b29c-b6c1-fdd9-accf33ec40bd_cf2ceca9-3467-a5b3-d095-68958eee6d4c_cec39dd8-f1d3-56f1-abfc-a7db34ff7b46_ec5fa2c9-3950-ff57-a5c3-1fa77e0db190_d19f9592-65df-bcc9-e30e-439b875c3381_76a3d06f-f11f-77ef-9bfd-6227ba750200_5e1caa45-461c-3b04-f88b-8cd50af16db5_c2dceda8-20b4-7d3f-13b6-9cac67d7df17_914fa41b-cc86-d3b0-4e15-2fdfa357bcc7_40c6c884-da6e-7c2c-081f-4a7dfe7c7245_9167ae1b-1e1c-6c89-59f1-ea6b8932b2a9_3501280e-bc87-9da2-d897-a15439b22631_20394f10-fd58-42f5-ac57-a7b91f51ce08"></script></head><body class="CSPvNext"><div class="row-fluid" data-view4="1" data-view3="1" data-view2="1" data-view1="1" data-cols="1"><div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1"><span class="page-data-sources"></span><!-- UHF CSS Workarounds --><script>/*<![CDATA[*/function DecodeHTML(){$(".msame_Header_chev").length&&($(".msame_Header_chev").text()?$(".msame_Header_chev").html($(".msame_Header_chev").text()).show():$(".msame_Header_chev").hide())}function checkDecode(){DecodeHTML();$(".msame_Header_chev").unbind("DOMSubtreeModified",checkDecode)}$(document).ready(function(){var i=document.getElementById("cli_shellHeaderSearchInput"),t=$(i).attr("placeholder").match(/&#(\d+);/g),r=t&&t.length,n;if(r)for(n=0;n<r;n++)i.placeholder=i.placeholder.replace(t[n],String.fromCharCode(t[n].match(/\d+/)))});$(document).ready(DecodeHTML);$(window).load(DecodeHTML);$(window).resize(function(){$(".msame_Header_chev").bind("DOMSubtreeModified",checkDecode)})/*]]>*/</script><div class="CMSvNextComp"><div class="row-fluid mscom-grid-container mscom-container-maxwidth"><a class="mscom-link mscom-siteIdentity" href="https://www.microsoft.com/en-us/useterms">Microsoft License Terms</a></div></div></div></div><div class="row-fluid" id="mainContent"><div class="span"><html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset='windows-1252'" /><meta name="Generator" content="Microsoft Word 15 (filtered)" /><style></style></head><body lang="EN-US" style="text-justify-trim:punctuation"><div class="WordSection1"><p class="MsoNormal" style="margin-bottom:10.0pt"><b><span lang="IT" style="font-size:11.0pt">COMUNICAZIONE IMPORTANTE</span></b><span lang="IT" style="font-size:11.0pt"> (seguita dalle CONDIZIONI DI LICENZA)</span></p><p class="MsoNormal" style="margin-bottom:10.0pt"><b><span lang="IT" style="font-size:11.0pt">Dati sull’Utilizzo e la Diagnostica.</span></b><span lang="IT" style="font-size:11.0pt"> Microsoft raccoglie automaticamente tali
+dati, che possono essere associate all’organizzazione del licenziatario, su
+Internet e li utilizza per migliorare l’installazione, l’aggiornamento e
+l’esperienza utente, nonché la qualità e la sicurezza dei prodotti e dei
+servizi offerti. Windows Server dispone di quattro (4) impostazioni di raccolta
+dei dati (Sicurezza, Base, Avanzata e Completa) e utilizza l’impostazione </span><span lang="AR-SA">“</span><b><span lang="IT" style="font-size:11.0pt">Avanzata</span></b><span lang="AR-SA">” </span><span lang="IT" style="font-size:11.0pt">come impostazione
+predefinita Il livello Avanzato include i dati necessari per: (i) eseguire le
+tecnologie anti-malware e per la raccolta dei dati sull’utilizzo e la
+diagnostica, (ii) conoscere la qualità dei dispositivi e l’utilizzo e la
+compatibilità delle applicazioni, e (iii) identificare i problemi di qualità
+durante l’utilizzo e nelle prestazioni del sistema operativo e delle
+applicazioni.</span></p><p class="MsoNormal" style="margin-bottom:10.0pt"><b><span lang="IT" style="font-size:11.0pt">Scelta e Controllo:</span></b><span lang="IT" style="font-size:11.0pt"> Gli amministratori possono cambiare il livello di
+raccolta dei dati tramite le <b>Impostazioni</b>. Per ulteriori informazioni su
+diagnostica e utilizzo dei dati, vedere (aka.ms/winserverdata) e l'Informativa
+sulla Privacy di Microsoft (aka.ms/privacy).</span></p><p class="MsoNormal" style="margin-bottom:10.0pt"><span lang="IT" style="font-size: 11.0pt"></span></p><p class="MsoNormal" align="right" style="margin-bottom:10.0pt;text-align:right"><b><span lang="IT" style="font-size:11.0pt">Ultimo Aggiornamento: aprile 2018</span></b></p><p class="MsoNormal" style="margin-bottom:10.0pt"><b><span lang="IT" style="font-size:11.0pt">CONDIZIONI DI LICENZA SOFTWARE MICROSOFT</span></b></p><div style="border:none;border-bottom:solid windowtext 1.0pt;padding:0in 0in 1.0pt 0in"><p class="MsoNormal" style="margin-bottom:10.0pt;border:none;padding:0in"><b><span lang="IT" style="font-size:11.0pt">MICROSOFT WINDOWS SERVER </span></b></p></div><p class="MsoNormal" style="margin-bottom:10.0pt"><b><span lang="IT" style="font-size:11.0pt">Grazie per aver scelto Microsoft. </span></b><span lang="IT" style="font-size:11.0pt">A seconda di come il licenziatario ha ottenuto
+Windows Server (di seguito denominato "Windows Server" o
+"software server" o "software"), il presente documento
+costituisce un contratto di licenza tra (i) il licenziatario e il produttore
+del dispositivo o l’installatore del software che distribuisce il software con
+il dispositivo, oppure (ii) il licenziatario e Microsoft Corporation (o, in
+base al luogo di residenza del licenziatario oppure, nel caso di una società,
+in base al luogo principale in cui la società svolge la propria attività, una
+delle sue consociate) qualora il licenziatario abbia acquistato il software da
+un rivenditore. Microsoft è il produttore del dispositivo relativamente ai
+dispositivi prodotti da Microsoft o da una delle sue consociate e Microsoft è
+il rivenditore qualora il licenziatario abbia acquistato il software
+direttamente da Microsoft. Eventuali condizioni di licenza stampate fornite
+insieme al software sostituiscono qualsiasi condizione di licenza online.</span></p><p class="MsoNormal" style="margin-bottom:10.0pt"><span lang="IT" style="font-size: 11.0pt">Nel presente contratto sono descritti i diritti del licenziatario e le
+condizioni per l’utilizzo del software. Poiché tutti i termini sono importanti
+e nel loro insieme costituiscono il presente contratto applicabile al
+licenziatario, il licenziatario dovrà rivedere l’intero accordo, compresi
+eventuali condizioni di licenza supplementari che accompagnano il software e
+tutte le condizioni collegate. Il licenziatario può prendere visione delle
+condizioni accessibili tramite collegamento copiando il collegamento (aka.ms/)
+in una finestra del browser. Le presenti condizioni si applicano inoltre a
+qualsiasi aggiornamento, supplemento e servizio basato su Internet. Qualora il
+licenziatario ottenga software da un produttore o da un installatore, e
+aggiornamenti o supplementi direttamente da Microsoft, sarà Microsoft, e non il
+produttore o l’installatore, a concederli in licenza al licenziatario. </span></p><p class="MsoNormal" style="margin-bottom:10.0pt"><b><span lang="IT" style="font-size:11.0pt">Accettando il presente contratto o utilizzando il
+software, il licenziatario ne accetta tutte le condizioni e acconsente alla
+trasmissione di altre informazioni durante l’attivazione e durante l’utilizzo
+del software in conformità all’Informativa sulla Privacy descritta all’Articolo
+6. Qualora il licenziatario non accetti le presenti condizioni di licenza e non
+vi si conformi, non potrà utilizzare il software né le relative funzionalità. </span></b><span lang="IT" style="font-size:11.0pt">Il licenziatario potrà contattare il
+produttore del dispositivo o l’installatore oppure il rivenditore, qualora
+abbia acquistato il software direttamente, per conoscere le modalità di
+restituzione del software o del dispositivo e di rimborso del prezzo. Il
+licenziatario dovrà attenersi a tali modalità, che potrebbero richiedere la
+restituzione del software unitamente al dispositivo sul quale il software è
+installato per ottenere il rimborso del prezzo, se previsto.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">1.      Panoramica
+del Modello di Licenza.</span></b></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.15pt"><b><span lang="IT" style="font-size:11.0pt">a.      </span></b><span lang="IT" style="font-size:11.0pt">Il presente contratto si applica al software
+server, e a qualsiasi altro software Microsoft aggiuntivo utilizzabile con il
+software server, preinstallato sul dispositivo del licenziatario, o acquistato
+da un produttore o da un rivenditore e installato dal licenziatario, agli
+eventuali supporti di memorizzazione sui quali il licenziatario ha ricevuto il
+software (se presenti), così come a qualsiasi aggiornamento, supplemento,
+downgrade e servizio Microsoft relativo al software, a meno che questi non
+siano accompagnati da condizioni specifiche.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.15pt"><b><span lang="IT" style="font-size:11.0pt">b.</span></b><span lang="IT" style="font-size:11.0pt">      Il modello di licenza descritto di
+seguito copre le licenze core di specifiche edizioni e versioni del software
+server e delle licenze CAL (Client Access License). Ove non diversamente
+specificato, è richiesto un numero minimo di licenze core per ciascun
+processore e server fisico. Inoltre, ove non diversamente specificato, ogni
+utente o dispositivo che accede al software server necessita di una licenza CAL
+per software server.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.15pt"><b><span lang="IT" style="font-size:11.0pt">c.      </span></b><span lang="IT" style="font-size:11.0pt">Microsoft offre una scelta di licenze per
+soddisfare le esigenze dei propri clienti, pertanto si invita a fare
+riferimento alle specifiche condizioni di licenza dell’edizione software
+offerta che è stata acquistata dal licenziatario. Il software server è disponibile
+in due diverse versioni, Standard e Datacenter. </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">i.       <i>Requisiti
+per la Licenza</i>. Le licenze del software server per entrambe le edizioni,
+Standard e Datacenter, si basano su: (a) numero di core fisici nel sistema
+hardware fisico; (b) numero di dispositivi e utenti che accedono a istanze di
+specifiche versioni del software server (CAL); e (c) funzionalità del software
+del server a cui si accede. Le condizioni di licenza di entrambe le edizioni
+dipendono da, e si allineano a, specifiche versioni del prodotto software. Ad
+esempio, se il licenziatario ha acquisito una versione precedente, le
+specifiche condizioni di licenza relative a quella versione si applicano a tale
+versione del software server, e non autorizzano il licenziatario a future
+versioni del software. </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">ii.      <i>Differenza
+di Licenza</i>. Con la licenza per edizione Standard il licenziatario è
+limitato a un certo numero di istanze del software server, mentre con la
+licenza per edizione Datacenter al licenziatario è consentito un illimitato
+numero di istanze del software server, come ulteriormente descritto nel
+presente contratto.</span></p><p class="MsoNormal" style="margin-bottom:10.0pt"><b><span lang="IT" style="font-size:11.0pt">2.      Definizioni</span></b></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">a.      Software
+Aggiuntivo.</span></b><span lang="IT" style="font-size:11.0pt"> Il software
+aggiuntivo è definito come quelli elencati a seguire:
+(aka.ms/additionalsoftware).</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">b.      Assegnazione
+di una Licenza.</span></b><span lang="IT" style="font-size:11.0pt"> La cessione
+di una licenza consiste nell’attribuire tale licenza a un dispositivo o a un
+utente.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">c.      Applicazioni
+HPC con Cluster</span></b><span lang="IT" style="font-size:11.0pt"> indicano
+applicazioni computazionali a elevate prestazioni che risolvono problemi
+computazionali complessi o problemi computazionali strettamente correlati in
+parallelo. Le Applicazioni HPC Cluster suddividono un problema computazionale
+complesso in una serie di processi e attività coordinati da un pianificatore di
+processi, fornito ad esempio nel Pacchetto Microsoft HPC o in un middleware HPC
+simile, che li distribuisce in parallelo su uno o più computer operanti in un
+cluster HPC.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">d.      Licenza
+Core.</span></b><span lang="IT" style="font-size:11.0pt"> Una licenza core è una
+licenza necessaria per ottenere in licenza un core fisico all’interno di un
+server.<b></b>Un core fisico è un core all’interno di un processore fisico. Un
+processore fisico è formato da uno o più core fisici.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">e.      Carico
+di Lavoro HPC (</span></b><span lang="AR-SA">“</span><b><span lang="IT" style="font-size:11.0pt">High Performance Computing</span></b><span lang="AR-SA">”</span><b><span lang="IT" style="font-size:11.0pt">)</span></b><span lang="IT" style="font-size: 11.0pt"> è un carico di lavoro in cui il software server viene utilizzato per
+eseguire un Nodo Cluster e, insieme a un altro software, per migliorare la
+sicurezza, l’archiviazione e le prestazioni, e gestire sistemi su un Nodo
+Cluster di supporta ad Applicazioni HPC Cluster.<i> Nodo Cluster</i> è un
+dispositivo destinato all’esecuzione di Applicazioni HPC Cluster o
+all’erogazione di servizi di pianificazione dei processi per Applicazioni HPC
+Cluster. </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">f.       Istanza.</span></b><span lang="IT" style="font-size:11.0pt"> Il licenziatario crea un’</span><span lang="AR-SA">”</span><span lang="IT" style="font-size:11.0pt">istanza</span><span lang="AR-SA">” </span><span lang="IT" style="font-size:11.0pt">di software
+eseguendo la procedura di configurazione o di installazione del software,
+oppure duplicando un'istanza esistente. <i>Esecuzione di un’Istanza</i><b>.</b>
+Il licenziatario </span><span lang="AR-SA">”</span><span lang="IT" style="font-size:11.0pt">esegue un'istanza</span><span lang="AR-SA">” </span><span lang="IT" style="font-size:11.0pt">di software caricandola in memoria ed
+eseguendo una o più delle relative istruzioni. Una volta in esecuzione,
+un'istanza viene considerata tale (anche se le relative istruzioni non sono più
+eseguite) fino a quando non viene rimossa dalla memoria.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">g.      Ambiente
+del Sistema Operativo.</span></b><span lang="IT" style="font-size:11.0pt"> Un </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">ambiente del sistema
+operativo</span><span lang="AR-SA">” </span><span lang="IT" style="font-size:11.0pt">è:</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">i.       un’Istanza
+completa o parziale di un sistema operativo fisico o virtuale (o in altro modo
+emulato) che abilita un’identità separata del computer (nome del computer
+primario o identificativo univoco analogo) o diritti amministrativi specifici e
+istanze di applicazioni (se presenti), configurate per essere eseguite su
+Istanze o parziali del sistema operativo sopra identificate.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><i><span lang="IT" style="font-size:11.0pt">(a)     Un
+ambiente fisico del sistema operativo</span></i><span lang="IT" style="font-size: 11.0pt"> è configurato per essere eseguito direttamente su un sistema hardware
+fisico. L’istanza del sistema operativo fisico utilizzata per eseguire il
+software di virtualizzazione dell’hardware (ad esempio, Microsoft Hyper-V
+Server o tecnologie analoghe), oppure per erogare servizi di virtualizzazione
+dell’hardware (ad esempio, tecnologie di virtualizzazione Microsoft), è considerata
+parte dell’ambiente fisico del sistema operativo.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><i><span lang="IT" style="font-size:11.0pt">(b)     Un
+ambiente virtuale del sistema operativo</span></i><span lang="IT" style="font-size:11.0pt"> è configurato per essere eseguito su un sistema
+hardware virtuale (o diversamente emulato).</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">ii.      Un
+sistema hardware fisico può disporre di uno o entrambi gli elementi seguenti:</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">(a)     un
+ambiente fisico del sistema operativo, e</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">(b)    uno
+o più ambienti virtuali del sistema operativo.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.25in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt"></span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">h.      Server.</span></b><span lang="IT" style="font-size:11.0pt"> Un server è un dispositivo o sistema hardware
+fisico in grado di eseguire software server. Una partizione hardware o un blade
+è considerato un sistema hardware fisico separato.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">i.       Carichi
+di Lavoro Web</span></b><span lang="IT" style="font-size:11.0pt"> (denominati
+anche </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">Soluzioni
+Web Internet</span><span lang="AR-SA">”</span><span lang="IT" style="font-size: 11.0pt">) sono accessibili pubblicamente e consistono esclusivamente di pagine
+Web, siti Web, applicazioni Web, servizi Web e/o servizi di posta POP3. Per
+maggiore chiarezza, l’accesso al contenuto, alle informazioni e alle
+applicazioni gestiti dal software in una Soluzione Web Internet non è limitato
+al licenziatario o a dipendenti di consociate del licenziatario. </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in"><span lang="IT" style="font-size:11.0pt">Il licenziatario
+potrà utilizzare il software delle Soluzioni Web Internet per eseguire: (1)
+software server Web (ad esempio, Microsoft Internet Information Services) e
+agenti di gestione o di sicurezza (ad esempio, l'agente System Center
+Operations Manager), (2) software del motore del database (ad esempio,
+Microsoft SQL Server) esclusivamente per supportare Soluzioni Internet Web, (3)
+il servizio Domain Name System per fornire la risoluzione dei nomi Internet per
+indirizzi IP a condizione che ciò non sia la sola funzione di tale istanza del
+software. Qualsiasi altro utilizzo del software non è considerato un Carico di
+Lavoro Web.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">j.       Windows
+Server Container </span></b><span lang="IT" style="font-size:11.0pt">(senza
+isolamento Hyper-V)<b></b>è una funzionalità di software Windows Server.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">k.      Windows
+Server Container con isolamento Hyper-V</span></b><span lang="IT" style="font-size:11.0pt"> (precedentemente noto come Hyper-V Container) è una
+tecnologia di contenitore presente in Windows Server che utilizza un ambiente
+di sistema operativo virtuale per ospitare uno o più contenitori di Windows
+Server Container. Ciascun istanza di isolamento Hyper-V utilizzata per ospitare
+un Windows Server Container è considerata un ambiente virtuale del sistema
+operativo.</span></p><p class="MsoNormal"><b><span lang="IT" style="font-size:11.0pt">3.      Come
+Concedere in Licenza un Software Server</span></b></p><p class="MsoNormal"><b><span lang="IT" style="font-size:11.0pt"></span></b></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">a.      Concessione
+in Licenza di un Server.</span></b><span lang="IT" style="font-size:11.0pt"> Un
+software con licenza appropriata garantisce al licenziatario il diritto di
+installare ed eseguire un determinato numero di istanze del software server su
+un server. Prima di eseguire tali istanze, il licenziatario deve determinare il
+numero di licenze core necessarie per ciascun server (sottoparagrafo 3.b) e
+assegnare tali licenze core al server come descritto sotto. </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in"><i><span lang="IT" style="font-size:11.0pt">Licenza del
+Produttore o dell’Installatore.</span></i><b><span lang="IT" style="font-size: 11.0pt"></span></b><span lang="IT" style="font-size:11.0pt">Se il licenziatario
+ottiene il software da un produttore o da un installatore, a detto licenziatario
+vengono concesse in licenza 16 core; nel pacchetto server del produttore o
+dell’installatore potranno essere incluse licenze core aggiuntive. Qualsiasi
+licenza aggiuntiva acquisita dal produttore o dall'installatore sarà inoltre
+soggetta alle presenti condizioni di licenza, e a eventuali ulteriori
+condizioni incluse in tali licenze aggiuntive. È possibile trovare una o più
+etichette con la dicitura </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">Certificato di Autenticità</span><span lang="AR-SA">” </span><span lang="IT" style="font-size:11.0pt">(</span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">Certificate of Authenticity</span><span lang="AR-SA">” </span><span lang="IT" style="font-size:11.0pt">o </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">COA</span><span lang="AR-SA">”</span><span lang="IT" style="font-size:11.0pt">) affisse al server
+e/o alla confezione del software del produttore o dell’installatore; in tali
+etichette sarà indicato il numero totale di licenze core cedute al server dal
+produttore o dall’installatore. </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">b.      Determinazione
+del Numero di Licenze Necessario.</span></b><span lang="IT" style="font-size: 11.0pt"> Per ottenere in licenza un server, il licenziatario dovrà ottenere in
+licenza tutti i core fisici. </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in"><span lang="IT" style="font-size:11.0pt">i.       Per ciascun
+server sono richieste almeno 16 licenze core. </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">ii.      Per
+ciascun processore fisico sono richieste almeno otto licenze core. </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in"><span lang="IT" style="font-size:11.0pt">Qualora il numero di
+core fisici nel server ecceda il requisito minimo di 16 licenze core, il
+licenziatario avrà bisogno di altre licenze core a copertura dei core fisici
+aggiuntivi, eccetto per quanto previsto nel sottoparagrafo 3.c.i(b) e
+3.c.ii(b). </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">iii.     <i>Produttore
+o Installatore.</i> Qualora il numero di core fisici nel server superi il
+requisito minimo di 16 licenze core, il licenziatario dovrà disporre di altre
+licenze core a copertura dei core fisici aggiuntivi. Se il licenziatario ha
+ottenuto il software da un produttore o da un installatore, la licenza non
+serve per i core fisici disabilitati all’uso da un sistema operativo; tale
+esenzione non riduce il numero minimo di licenze core richieste, indicato nella
+presente Articolo. </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.15pt"><b><span lang="IT" style="font-size:11.0pt">c.      Cessione
+del Numero Necessario di Licenze al Server</span></b></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.0pt"><i><span lang="IT" style="font-size:11.0pt">i.       Produttore
+o Installatore.</span></i><span lang="IT" style="font-size:11.0pt"> Se il
+licenziatario ottiene il software da un produttore o da un installatore: </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">(a)<b>     Cessione
+Iniziale. </b>La licenza software viene ceduta al server con il quale è stato
+acquistato il software, eccetto per quanto previsto qui di seguito. Tale server
+è il server con licenza per tutte le licenze. Il licenziatario non potrà cedere
+le stesse licenze core a più di un server contemporaneamente. </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt"><span lang="IT" style="font-size:11.0pt">(b)    <b>Riassegnazione.
+</b></span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:135.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">(1)     Il
+licenziatario non può riassegnare le licenze core del software ottenute da un
+produttore o da un installatore, a meno di non acquistare i relativi diritti di
+licenza aggiuntivi. </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:135.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">(2)     Se
+si acquisiscono licenze aggiuntive che includono il diritto di riassegnazione
+di una licenza core, è possibile riassegnare tale licenza core, ma non prima di
+90 giorni dall'ultima cessione. Tuttavia, il licenziatario potrà riassegnare la
+licenza core prima di tale periodo qualora cessi di utilizzare il server con
+licenza a causa di un problema hardware permanente. Nel caso in cui il
+licenziatario riassegni la licenze core, il server al quale la licenza viene
+riassegnata diventa il nuovo server con licenza per tali licenze core. Il
+licenziatario potrà richiedere licenze core aggiuntive a copertura di tutti i core
+fisici presenti nel nuovo server.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">ii.      <i>Microsoft.</i>
+Qualora il licenziatario ottenga il software da Microsoft (non attraverso un
+produttore o un installatore):</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">(a)<span style="font:7.0pt &quot;Times New Roman&quot;"></span></span><b><span lang="IT" style="font-size:11.0pt">Cessione Iniziale.</span></b><span lang="IT" style="font-size:11.0pt"> Dopo avere determinato il numero di licenze core
+necessario per un server, il licenziatario dovrà cedere tale numero di licenze
+core al server. Tale server è il server con licenza per tutte le licenze. Il
+licenziatario non potrà cedere le stesse licenze core a più di un server
+contemporaneamente. </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">(b)    <b>Riassegnazione.</b>
+Il licenziatario potrà riassegnare le licenze core, ma non nei primi 90 giorni
+dall’ultima cessione. Tuttavia, potrà riassegnare le licenze core prima di tale
+periodo qualora cessi di utilizzare il server con licenza a causa di un
+problema hardware permanente. Nel caso in cui il licenziatario riassegni le
+licenze core, il server al quale le licenze vengono riassegnate diventa il
+nuovo server con licenza per tali licenze core. Il licenziatario potrà
+richiedere licenze core aggiuntive a copertura di tutti i core fisici presenti
+nel nuovo server.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.15pt"><b><span lang="IT" style="font-size:11.0pt">d.      Esecuzione
+di Istanze del Software Server</span></b></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.15pt;text-indent:-27.15pt"><b><span lang="IT" style="font-size: 11.0pt">Windows Server Standard</span></b></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">i.       Per
+ogni server al quale ha ceduto il numero necessario di licenze core, come
+stabilito all’Articolo 3.b, il licenziatario potrà eseguire ogni singola volta
+il software server in:</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        un
+ambiente fisico del sistema operativo, </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        fino
+a due ambienti virtuali del sistema operativo, e</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        qualsiasi
+numero di ambiente di sistema operativo istanziati come Windows Server
+Container senza isolamento Hyper-V.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">ii.      Qualora
+il licenziatario esegua contemporaneamente tutte le istanze autorizzate,
+l’istanza del software server in esecuzione nell’ambiente fisico del sistema
+operativo può essere utilizzata solo per:</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        eseguire
+il software di virtualizzazione dell’hardware,</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        fornire
+servizi di virtualizzazione dell’hardware,</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        eseguire
+il software per gestire e manutenere l’ambiente del sistema operativo sul
+server concesso in licenza.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">iii.     Qualora
+il licenziatario desideri eseguire ulteriori istanze del software server, come stabilito
+all’Articolo 3.d., dovrà acquistare ulteriori licenze per il server, come
+descritto all’Articolo 3.b.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.15pt;text-indent:-27.15pt"><b><span lang="IT" style="font-size: 11.0pt">Windows Server Datacenter</span></b></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">i        Per
+ogni server al quale ha ceduto il numero necessario di licenze core, come
+stabilito all’Articolo 3.b, il licenziatario potrà eseguire, ogni singola
+volta:</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        un
+ambiente fisico del sistema operativo,</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        qualsiasi
+numero di ambienti virtuali del sistema operativo, e </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        qualsiasi
+numero di ambiente di sistema operativo istanziato come Windows Server
+Container senza isolamento Hyper-V.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.15pt"><b><span lang="IT" style="font-size:11.0pt">e.      Ripartizionamento
+del Server.</span></b><span lang="IT" style="font-size:11.0pt"> Il licenziatario
+potrà riassegnare le licenze su un componente hardware singolo prima del
+periodo sopra indicato nei casi seguenti:</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:99.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        riallocare
+i processori fisici da una partizione dell’hardware concessa in licenza a
+un’altra;</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:99.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        creare
+due o più partizioni da una partizione hardware concessa in licenza;</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:99.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        creare
+una partizione da due o più partizioni hardware concesse in licenza.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in"><span lang="IT" style="font-size:11.0pt">a condizione che (i)
+prima del ripartizionamento ogni partizione hardware disponga di una licenza
+completa e che (ii) il numero totale di processori fisici, core fisici e
+licenze core rimanga invariato.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">f.       Esecuzione
+di Istanze del Software Aggiuntivo.</span></b><span lang="IT" style="font-size: 11.0pt"> Il licenziatario può eseguire o utilizzare in altro modo un numero
+qualsiasi di istanze del software aggiuntivo elencato nel sito Web specificato
+di seguito, in ambienti fisici o virtuali del sistema operativo su un numero
+qualsiasi di dispositivi. Il licenziatario potrà utilizzare software aggiuntivo
+(al quale potranno essere talvolta applicati oneri aggiuntivi) esclusivamente
+con il software server. Per un elenco di software aggiuntivo, il licenziatario
+potrà visitare la pagina (aka.ms/additionalsoftware).</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">g.      Creazione
+e Archiviazione di Istanze nei Server o nei Supporti di Archiviazione del
+Licenziatario.</span></b><span lang="IT" style="font-size:11.0pt"> Per ogni
+server per il quale dispone di appropriata licenza, il licenziatario potrà
+creare e archiviare un numero qualsiasi di istanze del software su uno qualsiasi
+dei propri server o supporti di memorizzazione. Questo al solo scopo di
+esercitare il diritto di eseguire istanze del software in base a una qualsiasi
+delle licenze di cui dispone, secondo le modalità descritte nei diritti
+sull’utilizzo applicabili (ad esempio, non potrà distribuire istanze a terzi).</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">h.      Limitazioni</span></b><span lang="IT" style="font-size:11.0pt">. Il software non viene venduto, ma è concesso
+in licenza. Il produttore o l’installatore e Microsoft si riservano tutti i
+diritti (tra cui i diritti ai sensi delle leggi che disciplinano la proprietà
+intellettuale) non espressamente concessi nel presente contratto, sia in forma
+implicita, che per preclusione o altro, a meno che la legge applicabile non
+conferisca al licenziatario maggiori diritti. Il licenziatario dovrà attenersi
+a qualsiasi limitazione tecnica presente nel software che gli consente di
+utilizzarlo solo in determinati modi. Ad esempio, la presente licenza non
+concede alcun diritto al licenziatario e il licenziatario non potrà:</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:99.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        aggirare
+le restrizioni o le limitazioni tecniche presenti nel software;</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:99.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        decompilare
+o disassemblare il software, né in altro modo tentare di derivare il codice
+sorgente per il software, fatta eccezione e solo nella misura in cui tali
+attività siano: (i) consentite dalla legge applicabile o (ii) richieste dalle
+condizioni di licenza di terzi che disciplinano l'utilizzo di determinati
+componenti open source che potrebbero essere inclusi nel software; </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:99.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        utilizzare
+i file e i componenti del software in un altro sistema operativo, o in
+un’applicazione eseguita su un altro sistema operativo;</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:99.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        pubblicare,
+affittare, noleggiare, prestare o copiare il software (tranne che per copie di
+backup autorizzate);</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:99.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        divulgare
+a terzi i risultati di qualsiasi test comparativo (benchmarking) del software
+senza preventiva approvazione scritta di Microsoft</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:99.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        trasferire
+il software (salvo nei modi previsti dal presente contratto); </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:99.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        separare
+il software server per utilizzarlo in più di un ambiente del sistema operativo
+ai sensi di una licenza singola, se non espressamente consentito. Ciò si
+applica anche nel caso in cui gli ambienti del sistema operativo si trovino
+sullo stesso sistema hardware;</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:99.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        utilizzare
+il software per fornire hosting di servizi commerciali;</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:99.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        In
+caso di utilizzo di funzionalità basate su Internet, il licenziatario non potrà
+in alcun modo interferire con l’uso delle stesse da parte di terzi, né tentare
+di ottenere, senza autorizzazione, l’accesso a qualsiasi servizio, dato,
+account o rete.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt;text-indent:-.15pt"><span lang="IT" style="font-size:11.0pt">I
+diritti per accedere al software in un dispositivo qualsiasi non autorizzano il
+licenziatario a implementare alcun brevetto Microsoft o altra proprietà
+intellettuale Microsoft nel software o nei dispositivi che accedono a tale
+dispositivo.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">i.       Programmi
+Microsoft Inclusi.</span></b><span lang="IT" style="font-size:11.0pt"> Il
+software potrebbe contenere altri programmi Microsoft. Salvo altrimenti
+specificato, le presente condizioni di licenza si applicano anche all’utilizzo
+di programmi MIcrosoft utilizzati con il software server.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">j.       Aggiornamenti</span></b><span lang="IT" style="font-size:11.0pt">. Il software controlla periodicamente la
+disponibilità di aggiornamenti per il sistema e, nel caso, può installarli per
+conto del licenziatario. Il licenziatario potrà ottenere gli aggiornamenti solo
+da Microsoft o da fonti autorizzate ed è possibile che Microsoft debba
+aggiornare il sistema per fornire al licenziatario tali aggiornamenti.
+Accettando il presente contratto, il licenziatario accetta di ricevere tali
+tipi di aggiornamenti automatici senza alcuna ulteriore comunicazione. </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">k.      Copia
+di Backup.</span></b><span lang="IT" style="font-size:11.0pt"> Il licenziatario
+potrà creare una singola copia del software a scopo di backup. Il licenziatario
+può utilizzare tale copia esclusivamente per creare istanze del software.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">l.       Versioni
+con Diritti Limitati. </span></b><span lang="IT" style="font-size:11.0pt">Qualora
+la versione software acquistata dal licenziatario sia contrassegnata per, o in
+altro modo destinata a, un uso specifico o limitato, il licenziatario potrà
+utilizzarla esclusivamente come indicato. Il licenziatario non potrà utilizzare
+tali versioni del software in attività commerciali, no profit o che producano
+reddito.<b></b></span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">i.       <b>Anteprima.
+</b>Il licenziatario potrà scegliere di utilizzare versioni in anteprima,
+insider, beta o altre versioni non definitive del software (</span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">anteprime</span><span lang="AR-SA">”</span><span lang="IT" style="font-size:11.0pt">) che Microsoft potrà
+rendere disponibili. Il licenziatario potrà utilizzare le anteprime solo fino
+alla data di scadenza del software e purché si conformi a tutte le condizioni
+del presente contratto. Le anteprime sono sperimentali e potrebbero differire
+notevolmente dalla versione commerciale rilasciata. Nonostante quanto
+diversamente stabilito nel presente contratto, <b>le anteprime sono fornite </b></span><span lang="AR-SA">“</span><b><span lang="IT" style="font-size:11.0pt">COME SONO</span></b><span lang="AR-SA">” </span><b><span lang="IT" style="font-size:11.0pt">e nessuna
+garanzia, implicita o espressa (inclusa la Garanzia Limitata), si applica a
+tali versioni</span></b><span lang="IT" style="font-size:11.0pt">. <b>Installando
+le anteprime sul dispositivo in uso, il licenziatario potrebbe annullare o
+compromettere la garanzia del dispositivo e potrebbe non essere più idoneo a
+ricevere i servizi di supporto tecnico dal produttore del dispositivo o
+dall’operatore della rete, a seconda dei casi</b>. Microsoft non è responsabile
+dei danni causati in tal modo al licenziatario. Microsoft non potrà erogare
+servizi di supporto tecnico per le anteprime. Qualora il licenziatario fornisca
+a Microsoft commenti, suggerimenti o altre osservazioni in merito all’anteprima
+(</span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">invio</span><span lang="AR-SA">”</span><span lang="IT" style="font-size:11.0pt">), concede a
+Microsoft e ai relativi partner i diritti di utilizzare l’invio in qualunque
+modo e per qualsiasi scopo.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">ii.      <b>Valutazione.</b>
+Ai fini di un utilizzo per scopi di valutazione (o test o dimostrativi), il
+licenziatario non potrà vendere il software, utilizzarlo in un ambiente
+operativo reale né adoperarlo dopo il periodo di valutazione. Nonostante quanto
+diversamente stabilito nel presente contratto, <b>il software di valutazione è
+fornito </b></span><span lang="AR-SA">“</span><b><span lang="IT" style="font-size: 11.0pt">COM’È</span></b><span lang="AR-SA">” </span><b><span lang="IT" style="font-size:11.0pt">e nessuna garanzia, implicita o espressa (inclusa la
+Garanzia Limitata), si applica a tali versioni</span></b><span lang="IT" style="font-size:11.0pt">.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">iii.     <b>NFR.</b>
+Il licenziatario non potrà vendere il software che rechi l’etichetta </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">Campione
+Dimostrativo. Vietata la Vendita</span><span lang="AR-SA">” </span><span lang="IT" style="font-size:11.0pt">(</span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">Not for Resale</span><span lang="AR-SA">” </span><span lang="IT" style="font-size:11.0pt">o </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">NFR</span><span lang="AR-SA">”</span><span lang="IT" style="font-size:11.0pt">).</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">iv.      <b>SOFTWARE
+</b></span><span lang="AR-SA">“</span><b><span lang="IT" style="font-size:11.0pt">EDIZIONE
+EDUCATION</span></b><span lang="AR-SA">“ </span><b><span lang="IT" style="font-size:11.0pt">(</span></b><span lang="AR-SA">“</span><b><span lang="IT" style="font-size:11.0pt">Academic Edition</span></b><span lang="AR-SA">“ </span><b><span lang="IT" style="font-size:11.0pt">o </span></b><span lang="AR-SA">“</span><b><span lang="IT" style="font-size:11.0pt">AE</span></b><span lang="AR-SA">“</span><b><span lang="IT" style="font-size:11.0pt">).</span></b><span lang="IT" style="font-size: 11.0pt"> Il licenziatario dovrà essere un </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">Utente Qualificato Education</span><span lang="AR-SA">” </span><span lang="IT" style="font-size:11.0pt">per utilizzare il
+software recante l’etichetta </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">Edizione Education</span><span lang="AR-SA">” </span><span lang="IT" style="font-size:11.0pt">(</span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">Academic Edition</span><span lang="AR-SA">” </span><span lang="IT" style="font-size:11.0pt">o </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">AE</span><span lang="AR-SA">”</span><span lang="IT" style="font-size:11.0pt">). Se il licenziatario desidera sapere se è un
+Utente Qualificato Education, visiti (aka.ms/academicedition) o contatti la
+consociata Microsoft del proprio paese.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">m.     Numero
+Massimo di Istanze.</span></b><span lang="IT" style="font-size:11.0pt"> Il
+software o l’hardware potrà limitare il numero di istanze del software server
+eseguibili sugli ambienti fisici o virtuali del sistema operativo del server.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">4.      Licenze
+CAL (Client Access License) per Windows Server</span></b></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">a.      Tipi
+di Cessioni e Licenze CAL.</span></b></p><h3 style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left: .75in"><span lang="IT" style="font-size:11.0pt">Esistono due tipi di licenze CAL:
+una per dispositivi e una per utenti. Il licenziatario potrà utilizzare una
+combinazione di licenze CAL per dispositivo e user CAL. </span></h3><h3 style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left: 81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">i.       Dispositivo
+CAL. Permette l’accesso di un dispositivo, utilizzato da un utente qualsiasi, a
+un’istanza del software server, sui server con licenza del licenziatario. </span></h3><h3 style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left: 81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">ii.      Utente
+CAL. Permette l’accesso di un utente, che utilizzi uno qualsiasi dei
+dispositivi, a un’istanza del software server sui server del licenziatario. </span></h3><h3 style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left: .75in"><i><span lang="IT" style="font-size:11.0pt">Cessione</span></i><span lang="IT" style="font-size:11.0pt">. Il licenziatario dovrà acquistare e cedere
+la corrispondente versione della licenza CAL appropriata a ogni dispositivo o
+utente che acceda, direttamente o indirettamente, a istanze del software server
+del licenziatario. Una partizione hardware o un blade sono considerati un
+dispositivo separato.</span></h3><h3 style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left: .75in"><span lang="IT" style="font-size:11.0pt">Le licenze CAL consentono anche
+di accedere alle istanze delle versioni precedenti, ma non delle versioni
+successive, del software server. Nel caso in cui acceda a istanze di una
+versione precedente (ad.es., con diritti di downgrade (vedere Articolo 5.b)),
+il licenziatario potrà utilizzare anche le licenze CAL corrispondenti a tale
+versione precedente. </span></h3><h3 style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left: 81.0pt;text-indent:-27.0pt"><i><span lang="IT" style="font-size:11.0pt">Riassegnazione.</span></i><span lang="IT" style="font-size:11.0pt"> Il licenziatario potrà:</span></h3><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        riassegnare
+una licenza CAL a un altro dispositivo o utente, ma non prima di 90 giorni
+dall’ultima riassegnazione della stessa licenza CAL, salvo laddove la
+riassegnazione sia dovuta a (i) problema o perdita hardware permanente, (ii)
+cessazione del rapporto di lavoro o del contratto dell’utente o (iii)
+riallocazione etemporanea di CAL, Licenze di Gestione Client o SL per utente o
+dispositivo per coprire l’assenza di un utente o la non disponibilità di un
+dispositivo fuori servizio. La Società dovrà rimuovere il software dal
+precedente dispositivo o bloccarne l’accesso al precedente utente.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        riassegnare</span><span lang="IT"></span><u><span lang="IT" style="font-size:11.0pt">temporaneamente</span></u><span lang="IT" style="font-size:11.0pt"> una licenza CAL per dispositivo a un
+dispositivo temporaneo quando il dispositivo principale è guasto, oppure una
+user CAL a un utente temporaneo quando l’utente principale è assente.</span></p><p class="MsoNormal"><span lang="IT" style="font-size:11.0pt"></span></p><h3 style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left: .75in"><i><span lang="IT" style="font-size:11.0pt">Eccezioni.</span></i><span lang="IT" style="font-size:11.0pt"> Il licenziatario non necessita di CAL per:</span></h3><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        qualsiasi
+server già autorizzato a eseguire le istanze del software server (ad es., un
+server con licenza per accedere a un altro server con licenza);</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        un
+massimo di due dispositivi o utenti che accedono alle istanze del software
+server esclusivamente per tali istanze;</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        qualsiasi
+istanza in esecuzione in un ambiente fisico del sistema operativo utilizzata
+esclusivamente per:</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:135.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        eseguire
+software di virtualizzazione dell’hardware;</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:135.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        fornire
+servizi di virtualizzazione dell’hardware;</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:135.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        eseguire
+il software per gestire e manutenere l’ambiente del sistema operativo sul server
+concesso in licenza.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        qualsiasi
+utente o dispositivo che accede a un Carico di Lavoro Web o Carico di Lavoro
+HPC.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt"></span></p><h3 style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left: .75in"><i><span lang="IT" style="font-size:11.0pt">Licenze CAL Aggiuntive.</span></i><b><span lang="IT" style="font-size:11.0pt"></span></b><span lang="IT" style="font-size: 11.0pt">Alcune funzionalità del software server richiedono licenze CAL
+aggiuntive, alcune delle quali sono elencate di seguito:</span></h3><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        Servizi
+Windows Server Remote Desktop: la versione corrispondente della licenza CAL per
+Servizi Windows Server Remote Desktop.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:1.5in;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        Servizi
+Windows Server Active Directory Rights Management: la versione corrispondente
+della licenza CAL per Servizi Windows Server Active Directory Rights
+Management.</span></p><h3 style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left: .75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">b.      Servizi
+Windows Server Remote Desktop.</span></b><span lang="IT" style="font-size:11.0pt">
+In aggiunta a una licenza CAL per Windows Server, il licenziatario dovrà
+acquistare la corrispondente versione della licenza CAL per Servizi Windows
+Server Remote Desktop per ciascun utente o dispositivo che (i) accede, in modo
+diretto o indiretto, alla funzionalità Remote Desktop Services, (ii) accede, in
+modo diretto o indiretto, al software server per ospitare un’interfaccia utente
+grafica (utilizzando la funzionalità Servizi Windows Server Remote Desktop o
+altra tecnologia) o (iii) accede alla funzionalità Servizi Multipoint. Per
+ulteriori informazioni sulle licenze CAL per Servizi Desktop Remoto Windows
+Server , visitare la pagina (aka.ms/windowsrds).</span></h3><h3 style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left: .75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">c.      Licenze
+CAL per Servizi Windows Server Active Directory Rights Management.</span></b><span lang="IT" style="font-size:11.0pt"> In aggiunta a una licenza CAL per Windows
+Server, il licenziatario dovrà acquistare la corrispondente versione della
+licenza CAL per Servizi Windows Server Active Directory Rights Management per
+ogni utente o dispositivo che acceda, direttamente o indirettamente, alla
+funzionalità Servizi Windows Server Active Directory Rights Management.</span></h3><h3 style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left: .75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">d.      </span></b><span lang="IT" style="font-size:11.0pt">Il software server può essere utilizzato sia
+in modalità </span><span lang="AR-SA">“</span><span lang="IT" style="font-size: 11.0pt">Per Dispositivo o Per Utente</span><span lang="AR-SA">”</span><span lang="IT" style="font-size:11.0pt">, che in modalità </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">Per Server</span><span lang="AR-SA">”</span><span lang="IT" style="font-size:11.0pt">. Nella modalità </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">Per Dispositivo o Per Utente</span><span lang="AR-SA">” </span><span lang="IT" style="font-size:11.0pt">il licenziatario
+deve disporre di una licenza CAL per Windows Server per ciascun dispositivo o
+utente che acceda, direttamente o indirettamente, a istanze del software server
+nei server detenuti con licenza. Nella modalità </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">Per Server</span><span lang="AR-SA">” </span><span lang="IT" style="font-size:11.0pt">il licenziatario deve possedere e dedicare
+esclusivamente a un’istanza del software server tante licenze CAL per Windows
+Server quanti sono i dispositivi e gli utenti che possono accedere
+contemporaneamente, direttamente o indirettamente, a tale istanza. Il
+licenziatario potrà cambiare la modalità solo una volta da </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">Per server</span><span lang="AR-SA">” </span><span lang="IT" style="font-size:11.0pt">a </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">Per dispositivo o Per
+utente</span><span lang="AR-SA">”</span><span lang="IT" style="font-size:11.0pt">.
+In tal caso, il licenziatario conserverà lo stesso numero di CAL per Windows
+Server .</span></h3><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">e.      Multiplexing.</span></b><span lang="IT" style="font-size:11.0pt"> Il multiplexing o il pooling per ridurre le
+connessioni dirette con il software non riducono il numero di licenze di
+qualsiasi tipo di cui il licenziatario ha bisogno.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">5.      Ulteriori
+Disposizioni di Licenza.</span></b></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">a.      Trasferimento.</span></b><span lang="IT" style="font-size:11.0pt"> Le disposizioni del presente Articolo non
+sono applicabili qualora il licenziatario abbia acquistato il software in
+Germania o in uno dei Paesi elencati sul sito (aka.ms/transfer), nel qual caso
+l’eventuale trasferimento del software a terzi e il diritto di utilizzarlo
+dovranno essere conformi alla legge applicabile. </span></p><h3 style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left: 81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">i.<b>       </b>Se
+il licenziatario ha ottenuto il software da Microsoft, il primo utente del
+software potrà trasferire il software, il presente contratto e le licenze CAL
+direttamente a terzi. Prima del trasferimento il terzo dovrà accettare che il
+presente contratto si applichi al trasferimento e all'utilizzo del software. Il
+trasferimento dovrà includere il software e l’etichetta con la scritta </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">Prova della Licenza</span><span lang="AR-SA">”</span><span lang="IT" style="font-size:11.0pt">. Il primo utente non
+potrà conservare alcuna istanza del software a meno che non resti in possesso
+anche di un’altra licenza per il software.</span></h3><h3 style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left: 81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">ii.<b>      </b>Se
+il licenziatario ha ottenuto il software da un produttore o da un installatore,
+potrà trasferire il software solo con il server con licenza, tutte le etichette
+del </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">Certificato
+di Autenticità</span><span lang="AR-SA">”</span><span lang="IT" style="font-size: 11.0pt">, eventuali licenze aggiuntive originariamente incluse nel server e il
+presente contratti direttamente a terzi. Prima del trasferimento il terzo dovrà
+accettare che il presente contratto si applichi al trasferimento e all'utilizzo
+del software. Il licenziatario non potrà trattenere alcuna istanza del software
+a meno che non trattenga anche un’altra licenza per il software.</span></h3><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt"><span lang="IT" style="font-size:11.0pt">Nessuna disposizione
+del presente contratto vieta il trasferimento di software nella misura
+consentita ai sensi della legge applicabile, qualora il diritto di
+distribuzione sia stato esaurito.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">b.      Diritti
+di Downgrade.</span></b><span lang="IT" style="font-size:11.0pt"> Anziché creare,
+memorizzare e utilizzare il software, per ogni istanza autorizzata il
+licenziatario potrà creare, memorizzare e utilizzare una versione precedente
+delle seguenti edizioni del software per tutto il tempo in cui Microsoft
+fornisce supporto per detta versione precedente, come descritto in
+(aka.ms/windowslifecycle):</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:54.7pt;text-indent:-27.35pt"><span lang="IT" style="font-size:11.0pt">         <b>Windows
+Server Standard</b></span></p><p class="MsoNormal" style="margin-left:81.0pt;text-indent:-27.35pt"><span lang="IT" style="font-size:11.0pt">·        Windows Server Standard</span></p><p class="MsoNormal" style="margin-left:81.0pt;text-indent:-27.35pt"><span lang="IT" style="font-size:11.0pt">·<b>        </b>Windows Server Essentials</span></p><p class="MsoNormal" style="margin-left:81.0pt;text-indent:-27.35pt"><span lang="IT" style="font-size:11.0pt">·        Windows Server Foundation</span></p><p class="MsoNormal" style="margin-left:81.0pt;text-indent:-27.35pt"><span lang="IT" style="font-size:11.0pt">·        Windows Server Enterprise</span></p><p class="MsoNormal" style="margin-left:.75in"><span lang="IT" style="font-size: 11.0pt">·        Windows Web Server</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.35pt"><span lang="IT" style="font-size:11.0pt">·        Sistema
+Operativo Windows HPC Server</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:54.7pt;text-indent:-27.35pt"><span lang="IT" style="font-size:11.0pt">         <b>Windows
+Server Datacenter</b></span></p><p class="MsoNormal" style="margin-left:81.0pt;text-indent:-27.35pt"><span lang="IT" style="font-size:11.0pt">·        Windows Server Datacenter</span></p><p class="MsoNormal" style="margin-left:81.0pt;text-indent:-27.35pt"><span lang="IT" style="font-size:11.0pt">·        Windows Server Standard</span></p><p class="MsoNormal" style="margin-left:81.0pt;text-indent:-27.35pt"><span lang="IT" style="font-size:11.0pt">·        Windows Server Essentials</span></p><p class="MsoNormal" style="margin-left:81.0pt;text-indent:-27.35pt"><span lang="IT" style="font-size:11.0pt">·        Windows Server Foundation</span></p><p class="MsoNormal" style="margin-left:81.0pt;text-indent:-27.35pt"><span lang="IT" style="font-size:11.0pt">·        Windows Server Enterprise</span></p><p class="MsoNormal" style="margin-left:81.0pt;text-indent:-27.35pt"><span lang="IT" style="font-size:11.0pt">·        Windows Web Server</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.35pt"><span lang="IT" style="font-size:11.0pt">·        Sistema
+Operativo Windows HPC Server</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt"><span lang="IT" style="font-size:11.0pt">Il presente
+contratto si applica all’utilizzo delle versioni precedenti delle edizioni
+elencate qui sopra. Per evitare ogni dubbio, scegliendo l’opzione di downgrade:
+(i) il licenziatario non avrà il diritto di creare, archiviare o utilizzare un
+numero maggiore di istanze del software rispetto al numero consentito dal
+presente contratto e (ii) dovrà acquistare licenze per tutti i core nel server
+fisico in conformità all’Articolo 3 del presente contratto. Qualora la versione
+precedente includa componenti diversi non trattati nel presente contratto, le
+condizioni relative a tali componenti della versione precedente di queste
+edizioni si applicheranno all’utilizzo degli stessi da parte del licenziatario.
+Né il produttore o l’installatore né Microsoft sono obbligati a fornire al
+licenziatario versioni o altre edizioni, In qualsiasi momento il licenziatario
+può sostituire una versione o un’edizione precedente con la presente versione
+ed edizione del software.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">c.      Tecnologia
+di Archiviazione dei Dati.</span></b><span lang="IT" style="font-size:11.0pt"> Il
+software server può includere la tecnologia di archiviazione denominata
+Database Interno di Windows. I componenti del software server utilizzano questa
+tecnologia per memorizzare i dati. Il licenziatario non potrà utilizzare o accedere
+diversamente a questa tecnologia secondo quanto previsto dal presente
+contratto. </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">d.      Componenti
+dei Tipi di Carattere.</span></b><span lang="IT" style="font-size:11.0pt">
+Durante l’esecuzione del software il licenziatario potrà utilizzare i relativi
+tipi di carattere per visualizzare e stampare il contenuto. Il licenziatario
+potrà solo:</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        incorporare
+i tipi di carattere nel contenuto come consentito dalle restrizioni relative
+all’incorporamento dei tipi di carattere; e</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">·        scaricarli
+temporaneamente in una stampante o altro dispositivo di output per la stampa
+del contenuto.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">e.      Icone,
+Immagini e Suoni.</span></b><span lang="IT" style="font-size:11.0pt"> Durante
+l’esecuzione del software il licenziatario potrà utilizzare, ma non
+condividere, le icone, le immagini, i suoni e il contenuto multimediale. Le
+immagini, i suoni e il contenuto multimediale di esempio forniti con il
+software sono destinati a un utilizzo esclusivamente non commerciale da parte
+del licenziatario.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">f.       Funzionalità
+Aggiuntive.</span></b><span lang="IT" style="font-size:11.0pt"> Microsoft potrà
+fornire funzionalità aggiuntive per il software. Potrebbero essere applicati
+altre condizioni di licenza e costi.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">g.      Adobe
+Flash Player</span></b><span lang="IT" style="font-size:11.0pt">. Il software
+include Adobe Flash Player, concesso in licenza ai sensi delle condizioni di
+Adobe Systems Incorporated, disponibili all’indirizzo (aka.ms/adobeflash).
+Adobe e Flash sono marchi o marchi registrati di Adobe Systems Incorporated
+negli Stati Uniti e/o negli altri Paesi.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">h.      Componenti
+di Terzi. </span></b><span lang="IT" style="font-size:11.0pt">Il software potrà
+includere componenti di terzi con comunicazioni legali distinte o disciplinati
+da altri contratti, come indicato nel o nei file ThirdPartyNotices relativi al
+software. </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in"><i><span lang="IT" style="font-size:11.0pt">Produttore o
+Installatore.</span></i><span lang="IT" style="font-size:11.0pt"> Per il software
+ottenuto da un produttore o da un installatore, il software potrà includere
+componenti di terzi che il produttore o l’installatore, non i terzi, concede in
+licenza al licenziatario ai sensi delle condizioni stabilite nel presente
+contratto. Notare che, eventuali componenti di terzi, se presenti, sono inclusi
+solo a scopo informativo.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">i.       Ulteriori
+Comunicazioni.   </span></b></p><h3 style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left: 81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">i.<b><span style="text-transform:uppercase">       Standard Video H.264/AVC, MPEG-4 </span> e
+<span style="text-transform:uppercase">VC-1 </span>.</b> Il presente software
+potrà includere la tecnologia di decodifica H.264/MPEG-4 AVC e/o VC-1.
+MPEG LA, L.L.C. richiede la seguente comunicazione: </span></h3><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt"><span lang="IT" style="font-size:11.0pt">IL PRESENTE PRODOTTO
+È CONCESSO IN LICENZA AI SENSI DELLE LICENZE PER IL PORTAFOGLIO DI BREVETTI
+VIDEO AVC, VC-1 E MPEG-4 PARTE 2 PER L’UTILIZZO PERSONALE E NON COMMERCIALE DA
+PARTE DI UN CONSUMATORE AL FINE DI (i) CODIFICARE VIDEO IN CONFORMITÀ AGLI
+STANDARD SOPRA SPECIFICATI (</span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">STANDARD VIDEO</span><span lang="AR-SA">”</span><span lang="IT" style="font-size:11.0pt">) E/O (ii) DECODIFICARE IL VIDEO AVC, VC-1 E
+MPEG-4 PARTE 2 CODIFICATO DA UN CONSUMATORE IMPEGNATO IN UN’ATTIVITÀ PERSONALE
+E NON COMMERCIALE E/O RICEVUTO DA UN FORNITORE DI VIDEO AUTORIZZATO A FORNIRE
+TALE VIDEO. NESSUNA LICENZA VIENE CONCESSA O SARÀ IMPLICITA PER QUALSIASI ALTRO
+UTILIZZO. ULTERIORI INFORMAZIONI SONO DISPONIBILI SUL SITO WEB DI MPEG LA,
+L.L.C ALL’INDIRIZZO; VEDERE<u> (AKA.MS/MPEGLA)</u>.</span></p><h3 style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left: 81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">ii.<b>      Protezione
+da Malware.</b> Microsoft si impegna a proteggere il dispositivo del
+licenziatario da malware. Il software attiverà la protezione da malware qualora
+non sia installata un’altra protezione o quella eventualmente presente sia
+scaduta. A tal fine, l’eventuale altro software antimalware verrà disattivato o
+dovrà essere rimosso.</span></h3><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">6.      Diritto
+alla Protezione dei Dati Personali; Consenso all’Utilizzo dei Dati.</span></b><span lang="IT" style="font-size:11.0pt"> Microsoft protegge la privacy dell’Utente.
+Alcune delle funzionalità software inviano o ricevono dati quando vengono
+utilizzate. Molte possono essere disattivate nell’interfaccia utente oppure il
+licenziatario può decidere di non utilizzarle. Accettando il presente contratto
+e utilizzando il software, il licenziatario accetta che Microsoft possa
+raccogliere, trattare e divulgare i dati nella modalità descritta
+nell’Informativa sulla Privacy Microsoft (aka.ms/privacy) ed eventualmente
+nell’interfaccia utente associata alle funzionalità software.<b>   </b></span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">7.      Attivazione
+e Convalida.</span></b><span lang="IT" style="font-size:11.0pt"> Il licenziatario
+deve utilizzare il codice prodotto appropriato per l'attivazione e la convalida
+del software. Il diritto del licenziatario di utilizzare il software dopo il
+tempo specificato nel software potrebbe essere limitato, a meno che non venga
+attivato. Il licenziatario non dispone della licenza per continuare a
+utilizzare il software se ha cercato, senza successo, di attivarlo e non può
+eludere l'attivazione o la convalida. In entrambi i casi potrebbero essere
+addebitati i costi della connessione a Internet, della telefonata e dell’SMS.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">8.      Limitazioni
+Geografiche e Relative all’Esportazione.</span></b><span lang="IT" style="font-size:11.0pt"> Qualora l’utilizzo del software sia limitato a una
+particolare area geografica, il licenziatario potrà attivare il software solo
+in quell’area. Il licenziatario dovrà anche conformarsi a tutte le leggi e a
+tutti i regolamenti nazionali e internazionali sull’esportazione applicabili al
+software, che includono limitazioni su destinazioni, utenti finali e utilizzo
+finale. Per ulteriori informazioni sulle limitazioni geografiche e relative
+all’esportazione, il licenziatario potrà visitare le pagine
+(aka.ms/georestrict) e (aka.ms/exporting).</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">9.      Procedure
+per il Supporto Tecnico e il Rimborso.</span></b></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">a.      Software
+Preinstallato su un Dispositivo o Fornito con il Dispositivo dal Produttore.</span></b><span lang="IT" style="font-size:11.0pt"> Per quanto riguarda il software in generale,
+il licenziatario potrà contattare il produttore del dispositivo o
+l’installatore per le opzioni di supporto tecnico, utilizzando il numero di
+telefono fornito insieme al software. Per quanto riguarda gli aggiornamenti e i
+supplementi ricevuti direttamente da Microsoft, Microsoft potrà fornire servizi
+limitati di supporto tecnico per il software validamente concesso in licenza,
+come descritto alla pagina (aka.ms/mssupport). Qualora il licenziatario
+desideri ottenere un rimborso, dovrà contattare il produttore o l’installatore
+per conoscere le modalità di rimborso. Il licenziatario dovrà conformarsi a
+tali modalità che potrebbero prevedere il rimborso solo dietro restituzione del
+software unitamente al dispositivo sul quale il software è installato.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">b.      Software
+Acquistato Presso un Rivenditore.</span></b><span lang="IT" style="font-size: 11.0pt"> Microsoft fornisce servizi limitati di supporto tecnico per il
+software validamente concesso in licenza come descritto alla pagina
+(aka.ms/mssupport). Qualora il licenziatario abbia acquistato il software da un
+rivenditore e desideri un rimborso senza tuttavia riuscire a ottenerlo presso
+il luogo di acquisto, potrà ricevere informazioni in merito alle modalità di
+rimborso stabilite da Microsoft contattando direttamente Microsoft. Il
+licenziatario potrà visitare la pagina (aka.ms/msoffices). Qualora risieda in
+Nord America, potrà chiamare il numero (800) MICROSOFT o visitare la pagina
+(aka.ms/nareturns).</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">10.    Legge
+Applicabile.</span></b><span lang="IT" style="font-size:11.0pt"> Le leggi dello
+stato o del Paese di residenza del licenziatario (o, nel caso di una società,
+del luogo principale in cui la società svolge la propria attività).
+disciplinano tutti reclami e le controversie relative al software, al suo
+prezzo, o al presente contratto, compresi i reclami per inadempimento
+contrattuale, le leggi sulla concorrenza sleale, le leggi di garanzia
+implicite, l’indebito arricchimento e l’illecito civile, indipendentemente dai
+principi in materia di conflitto di leggi. </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">11.    Variazioni
+Regionali.</span></b><span lang="IT" style="font-size:11.0pt"> Il presente
+contratto descrive determinati diritti. Il licenziatario potrà avere altri
+diritti, tra cui i diritti dei consumatori, ai sensi delle leggi del Paese di
+residenza. Il licenziatario potrebbe, inoltre, vantare ulteriori diritti direttamente
+nei confronti della parte presso la quale ha acquistato il software. Il
+presente contratto non modifica ulteriori altri diritti che le leggi del Paese
+o dello Stato di residenza del licenziatario non consentono di modificare. Ad
+esempio, qualora il licenziatario abbia acquistato il software in una delle
+aree indicate di seguito o si applichi la legge obbligatoria del Paese, sono
+valide le seguenti disposizioni:</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">a.      Australia.</span></b><span lang="IT" style="font-size:11.0pt"> I riferimenti a </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">Garanzia Limitata</span><span lang="AR-SA">” </span><span lang="IT" style="font-size:11.0pt">sono riferimenti alla garanzia espressa
+fornita da Microsoft oppure dal produttore o dall’installatore. Questa garanzia
+viene fornita in aggiunta agli altri diritti e rimedi riconosciuti al
+licenziatario per legge, inclusi i diritti e i rimedi previsti in conformità
+alle garanzie di legge stabilite ai sensi della Australian Consumer Law.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in"><span lang="IT" style="font-size:11.0pt">Nel presente Articolo
+il termine </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">beni</span><span lang="AR-SA">” </span><span lang="IT" style="font-size:11.0pt">fa riferimento al
+software per il quale Microsoft oppure il Produttore o l’installatore fornisce
+la garanzia espressa. I beni Microsoft sono accompagnati da garanzie la cui
+esclusione ai sensi della Australian Consumer Law non è consentita. L’utente è
+autorizzato a ottenere una sostituzione o un rimborso in caso di guasto grave e
+un indennizzo per qualsiasi altra perdita o danno ragionevolmente prevedibile.
+L’utente è anche autorizzato a richiedere la riparazione o la sostituzione dei
+beni qualora la loro qualità non sia accettabile e il guasto non venga
+considerato grave.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">b.      Canada.</span></b><span lang="IT" style="font-size:11.0pt"> Il licenziatario può scegliere di
+interrompere la ricezione di aggiornamenti disattivando la funzionalità di
+aggiornamento automatico oppure l’accesso a Internet. Il licenziatario dovrà
+fare riferimento alla documentazione del prodotto per informazioni su come
+disattivare gli aggiornamenti per il proprio dispositivo o software specifico. </span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">c.      Unione
+Europea.</span></b><span lang="IT" style="font-size:11.0pt"> La limitazione
+relativa all’utilizzo didattico contenuta sopra nell’Articolo 3.l.(iv) non si
+applica nelle giurisdizioni elencate sul sito (aka.ms/academicuse).</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">d.      Germania
+e Austria.</span></b></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">(i)      <b>Garanzia.</b>
+Il software validamente concesso in licenza funzionerà in sostanziale
+conformità a quanto descritto nel materiale Microsoft fornito con il software.
+Tuttavia, dal produttore o dall’installatore e da Microsoft non viene fornita
+alcuna garanzia contrattuale in relazione al software concesso in licenza.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">(ii)     <b>Limitazione
+di Responsabilità</b>. In caso di comportamento intenzionale, colpa grave,
+reclami basati sulla Legge in materia di Responsabilità Prodotto, così come in
+caso di morte o lesioni personali, il produttore o l’installatore oppure
+Microsoft è responsabile in conformità alla legge imperativa.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:81.0pt"><span lang="IT" style="font-size:11.0pt">In riferimento alla
+frase precedente, il produttore o l’installatore oppure Microsoft sarà
+responsabile solo di colpa lieve qualora il produttore o l’installatore oppure
+Microsoft sia inadempiente a tali obbligazioni contrattuali sostanziali, il cui
+adempimento facilita la debita esecuzione del presente contratto, il cui
+inadempimento metterebbe in pericolo lo scopo del presente contratto e alla cui
+conformità una parte potrà costantemente fare affidamento (le cosiddette </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">obbligazioni
+fondamentali</span><span lang="AR-SA">”</span><span lang="IT" style="font-size: 11.0pt">). In altri casi di colpa lieve il produttore o l’installatore oppure
+Microsoft non sarà responsabile di tale colpa.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:.75in;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">e.      Altre
+Regioni.</span></b><span lang="IT" style="font-size:11.0pt"> Il licenziatario
+potrà visitare la pagina (aka.ms/variations) per un elenco attuale delle
+variazioni regionali.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt;text-indent:-27.0pt"><b><span lang="IT" style="font-size:11.0pt">12.    Intero
+Accordo.</span></b><span lang="IT" style="font-size:11.0pt"> Il presente
+contratto (inclusa la garanzia limitata indicata di seguito), unitamente alle
+condizioni di accompagnamento di eventuali supplementi, aggiornamenti e servizi
+software utilizzati dal licenziatario (forniti dal produttore,
+dall'installatore o da Microsoft), e alle condizioni contenute nei collegamenti
+Web elencati nel presente contratto, costituiscono l’intero accordo per il
+software e per gli eventuali predetti supplementi, aggiornamenti e servizi. Il
+licenziatario può anche prendere visione delle condizioni accessibili tramite i
+collegamenti contenuti nel presente contratto digitando gli URL in una barra
+degli indirizzi del browser e accettando di procedere in tale modo. Prima di
+utilizzare il software o i servizi, il licenziatario accetta di leggere le
+relative condizioni, incluse le condizioni accessibili tramite i collegamenti.
+Inoltre, riconosce che l’utilizzo del software e dei servizi funge da ratifica
+del presente contratto e delle condizioni accessibili tramite i collegamenti
+sopra indicati. </span></p><span lang="IT" style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif"><br clear="all" style="page-break-before:always" /></span><p class="MsoNormal" align="center" style="margin-bottom:10.0pt;text-align:center"><b><span lang="IT" style="font-size:11.0pt">***********************************************************************</span></b></p><p class="MsoNormal" align="center" style="margin-bottom:10.0pt;text-align:center"><b><u><span lang="IT" style="font-size:11.0pt">Disposizione Relativa alla Garanzia per
+Vendita al Dettaglio</span></u></b></p><p class="MsoNormal" align="center" style="margin-bottom:10.0pt;text-align:center"><b><span lang="IT" style="font-size:11.0pt"></span></b></p><p class="MsoNormal" align="center" style="margin-bottom:10.0pt;text-align:center"><b><span lang="IT" style="font-size:11.0pt">Garanzia Limitata.</span></b></p><p class="MsoNormal" style="margin-bottom:10.0pt"><span lang="IT" style="font-size: 11.0pt">Microsoft garantisce che il software validamente concesso in licenza
+funzionerà in sostanziale conformità a quanto descritto nel materiale Microsoft
+fornito con il software. La presente garanzia limitata non copre i problemi
+causati dal licenziatario, che sorgono per il mancato rispetto delle istruzioni
+da parte del licenziatario, oppure nel caso in cui tali problemi siano
+provocati da eventi al di fuori del ragionevole controllo di Microsoft. La
+garanzia limitata ha durata di un anno e decorre da quando il primo utente
+acquista il software. La garanzia coprirà anche qualsiasi supplemento,
+aggiornamento o software sostitutivo che il licenziatario potrà ricevere da
+Microsoft durante tale anno, ma solo per il periodo di validità residuo o per
+30 giorni, a seconda di quale periodo sia più lungo. Il trasferimento del
+software non estenderà la garanzia limitata.</span></p><p class="MsoNormal" style="margin-bottom:10.0pt"><span lang="IT" style="font-size: 11.0pt">Non vengono fornite altre garanzie o condizioni espresse. <b>Microsoft
+esclude tutte le garanzie e le condizioni implicite, incluse le garanzie e le
+condizioni implicite di commerciabilità (qualità non inferiore alla media),
+adeguatezza per uno scopo specifico e non violazione di diritti di terzi.
+Qualora la legge locale del licenziatario non consenta l’esclusione di garanzie
+implicite, eventuali garanzie o condizioni implicite resteranno in vigore solo
+per il periodo di validità della garanzia limitata e prevederanno le
+limitazioni autorizzate dalla legge locale del licenziatario. Qualora la legge
+locale del licenziatario richieda un periodo maggiore di validità della
+garanzia limitata, nonostante il presente contratto, si applicherà tale periodo
+maggiore di validità. Il licenziatario tuttavia può esercitare solo i rimedi
+consentiti nel presente contratto.</b></span></p><p class="MsoNormal" style="margin-bottom:10.0pt"><span lang="IT" style="font-size: 11.0pt">Nel caso in cui Microsoft sia inadempiente alla garanzia limitata, a
+propria scelta: (i) riparerà o sostituirà il software senza alcun costo
+aggiuntivo oppure (ii) accetterà la restituzione del software (o, a sua scelta,
+del dispositivo con marchio Microsoft sul quale il software è stato
+preinstallato) rimborsando l’eventuale importo pagato dal licenziatario. <b>Questi
+sono gli unici rimedi del licenziatario relativi all’inadempimento della
+garanzia.</b> Oltre agli specifici diritti riconosciuti al licenziatario
+conferiti dalla presente garanzia limitata, il licenziatario potrebbe
+beneficiare di altri diritti che variano da Stato a Stato o da Paese a Paese.</span></p><p class="MsoNormal" style="margin-bottom:10.0pt"><b><span lang="IT" style="font-size:11.0pt">Ad eccezione di qualsiasi riparazione, sostituzione o
+rimborso che Microsoft potrà fornire, il licenziatario non potrà far valere ai
+sensi della presente garanzia limitata, di qualsiasi parte del presente
+contratto o di qualsiasi fondamento giuridico, alcun danno o altro rimedio,
+inclusi i danni diretti, consequenziali, speciali, indiretti o incidentali
+oppure relativi alla perdita di profitti.</span></b><span lang="IT" style="font-size:11.0pt"> Le esclusioni relative ai danni e le limitazioni in
+merito ai rimedi contenuti nel presente contratto si applicano anche nel caso
+in cui la riparazione, la sostituzione o il rimborso del software non
+risarcisca completamente il licenziatario di eventuali perdite, nel caso in cui
+Microsoft fosse informata o avrebbe dovuto essere informata della possibilità
+del verificarsi di tali danni o qualora il rimedio non raggiunga il suo scopo essenziale.
+Poiché alcuni Paesi non ammettono l’esclusione o la limitazione di
+responsabilità per danni incidentali, consequenziali o di altro tipo, le
+suddette limitazioni o esclusioni potrebbero non essere applicabili al
+licenziatario. <b>Qualora la legge applicabile consenta al licenziatario di
+richiedere a Microsoft il risarcimento di altri danni anche nel caso in cui ciò
+non sia previsto dal presente contratto, tale risarcimento non potrà superare
+l’importo effettivamente pagato per il software (o l’importo di 50 USD nel caso
+in cui il licenziatario abbia ottenuto il software gratuitamente).</b></span></p><p class="MsoNormal" align="center" style="margin-bottom:10.0pt;text-align:center"><b><u><span lang="IT" style="font-size:11.0pt"><span style="text-decoration:none"></span></span></u></b></p><p class="MsoNormal" align="center" style="margin-bottom:10.0pt;text-align:center"><b><u><span lang="IT" style="font-size:11.0pt"><span style="text-decoration:none"></span></span></u></b></p><p class="MsoNormal" align="center" style="margin-bottom:10.0pt;text-align:center"><b><u><span lang="IT" style="font-size:11.0pt">Procedure per la Garanzia</span></u></b></p><p class="MsoNormal" style="margin-bottom:10.0pt"><span lang="IT" style="font-size: 11.0pt">Per ricevere l’assistenza prevista dalla garanzia o ottenere il
+rimborso, il licenziatario dovrà fornire una copia della prova di acquisto e conformarsi
+alle modalità di restituzione di Microsoft, che potrebbero richiedere la
+disinstallazione del software e la restituzione a Microsoft oppure la
+restituzione del software unitamente al dispositivo con marchio Microsoft sul
+quale è installato il software; l’etichetta con la scritta </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">Certificato di
+Autenticità</span><span lang="AR-SA">” </span><span lang="IT" style="font-size: 11.0pt">(</span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">Certificate
+of Authenticity</span><span lang="AR-SA">” </span><span lang="IT" style="font-size: 11.0pt">o </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">COA</span><span lang="AR-SA">”</span><span lang="IT" style="font-size:11.0pt">) che include il
+codice Product Key (qualora sia stata fornita con il dispositivo) dovrà
+rimanervi affissa.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">1.      <u>Stati
+Uniti e Canada</u>. Per ricevere l’assistenza prevista dalla garanzia limitata
+o informazioni su come ottenere un rimborso per il software acquistato negli
+Stati Uniti o in Canada, il licenziatario potrà contattare Microsoft
+telefonicamente al numero (800) MICROSOFT, per posta all’indirizzo Microsoft
+Customer Service and Support, One Microsoft Way, Redmond, WA 98052-6399 oppure
+visitando la pagina (aka.ms/nareturns).</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">2.      <u>Europa,
+Medio Oriente e Africa</u>. Qualora il licenziatario abbia acquistato il
+software in Europa, Medio Oriente o Africa, dovrà contattare Microsoft Ireland
+Operations Limited, Customer Care Centre, Atrium Building Block B, Carmanhall
+Road, Sandyford Industrial Estate, Dublin 18, Ireland o la consociata Microsoft
+del proprio Paese (aka.ms/msoffices).</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">3.      <u>Australia</u>.
+Qualora il licenziatario abbia acquistato il software in Australia, potrà
+contattare Microsoft e inoltrare un reclamo al 13 20 58 o all’indirizzo
+Microsoft Pty Ltd, 1 Epping Road, North Ryde NSW 2113 Australia.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">4.      <u>Altri
+Paesi</u>. Qualora il licenziatario abbia acquistato il software in un altro
+Paese, dovrà contattare la consociata Microsoft del proprio Paese
+(aka.ms/msoffices).</span></p><span lang="IT" style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif"><br clear="all" style="page-break-before:always" /></span><p class="MsoNormal" align="center" style="margin-bottom:10.0pt;text-align:center"><b><u><span lang="IT" style="font-size:11.0pt">Disposizione Relativa alla Garanzia per OEM</span></u></b></p><p class="MsoNormal" align="center" style="margin-bottom:10.0pt;text-align:center"><b><u><span lang="IT" style="font-size:11.0pt"><span style="text-decoration:none"></span></span></u></b></p><p class="MsoNormal" align="center" style="margin-bottom:10.0pt;text-align:center"><b><u><span lang="IT" style="font-size:11.0pt">Garanzia Limitata.</span></u></b></p><p class="MsoNormal" style="margin-bottom:10.0pt"><span lang="IT" style="font-size: 11.0pt">Il produttore o l’installatore del dispositivo garantisce che il
+software validamente concesso in licenza funzionerà in sostanziale conformità a
+quanto descritto nel materiale Microsoft fornito con il software. Qualora il
+licenziatario riceva gli aggiornamenti o i supplementi direttamente da
+Microsoft durante il periodo di validità di 90 giorni della presente garanzia,
+sarà Microsoft a concedere la presente garanzia limitata. Quest’ultima non
+copre i problemi causati dal licenziatario o che sorgono per il mancato
+rispetto delle istruzioni da parte del licenziatario oppure nel caso in cui
+tali problemi siano provocati da eventi al di fuori del ragionevole controllo
+del produttore o dell’installatore oppure di Microsoft. Il periodo di validità
+della presente garanzia limitata è di 90 giorni e decorre da quando il primo
+utente acquista il software. Tale garanzia coprirà anche qualsiasi supplemento,
+aggiornamento o software sostitutivo che il licenziatario potrà ricevere dal
+produttore o dall’installatore oppure da Microsoft durante i 90 giorni, ma solo
+per il periodo di validità residuo dei 90 giorni o per 30 giorni, a seconda di
+quale periodo sarà più lungo. Il trasferimento del software non estenderà la
+garanzia limitata.</span></p><p class="MsoNormal" style="margin-bottom:10.0pt"><span lang="IT" style="font-size: 11.0pt">Dal produttore o dall’installatore e da Microsoft non vengono fornite
+altre garanzie o condizioni espresse. <b>Il produttore o l’installatore e
+Microsoft escludono tutte le garanzie e le condizioni implicite, incluse le
+garanzie e le condizioni implicite di commerciabilità (qualità non inferiore
+alla media), adeguatezza per uno scopo specifico e non violazione di diritti di
+terzi. Qualora la legge locale del licenziatario non consenta l’esclusione di
+garanzie implicite, eventuali garanzie o condizioni implicite resteranno in
+vigore solo per il periodo di validità della garanzia limitata e prevederanno
+le limitazioni autorizzate dalla legge locale del licenziatario. Qualora la
+legge locale del licenziatario richieda un periodo maggiore di validità della
+garanzia limitata, nonostante il presente contratto, si applicherà tale periodo
+maggiore di validità. Il licenziatario tuttavia può esercitare solo i rimedi
+consentiti nel presente contratto. Il presente contratto non modifica gli
+eventuali diritti dei consumatori riconosciuti al licenziatario dalla legge
+locale.</b></span></p><p class="MsoNormal" style="margin-bottom:10.0pt"><span lang="IT" style="font-size: 11.0pt">Nel caso in cui il produttore o l’installatore oppure Microsoft sia
+inadempiente alla garanzia limitata, a propria scelta: (i) riparerà o
+sostituirà il software senza alcun costo aggiuntivo oppure (ii) accetterà la
+restituzione del software (o, a sua scelta, del dispositivo sul quale il
+software è stato preinstallato) rimborsando l’eventuale importo pagato dal
+licenziatario. Il produttore o l’installatore (o Microsoft nel caso in cui i
+prodotti siano stati acquistati direttamente presso Microsoft stessa) potrà anche
+riparare o sostituire i supplementi, gli aggiornamenti e la sostituzione del
+software oppure rimborsare l’eventuale importo pagato. <b>Questi sono gli unici
+rimedi del licenziatario relativi all’inadempimento della garanzia.</b> Oltre
+agli specifici diritti riconosciuti al licenziatario conferiti dalla presente
+garanzia limitata, il licenziatario potrebbe beneficiare di altri diritti che
+variano da Stato a Stato o da Paese a Paese.</span></p><p class="MsoNormal" style="margin-bottom:10.0pt"><b><span lang="IT" style="font-size:11.0pt">Ad eccezione di qualsiasi riparazione, sostituzione o
+rimborso che il produttore o l’installatore oppure Microsoft potrà fornire, il
+licenziatario non potrà recuperare, ai sensi della presente garanzia limitata,
+di qualsiasi parte del presente contratto o di qualsiasi fondamento giuridico,
+alcun danno o altro rimedio, inclusi i danni diretti, consequenziali, speciali,
+indiretti o incidentali oppure relativi alla perdita di profitti.</span></b><span lang="IT" style="font-size:11.0pt"> Le esclusioni relative ai danni e le
+limitazioni in merito ai rimedi contenuti nel presente contratto si applicano
+anche nel caso in cui la riparazione, la sostituzione o un rimborso del
+software non risarcisca completamente il licenziatario di eventuali perdite,
+nel caso in cui il produttore o l’installatore oppure Microsoft fosse informata
+o avrebbe dovuto essere informata della possibilità del verificarsi di tali
+danni o qualora il rimedio non raggiunga il suo scopo essenziale. Poiché alcuni
+Paesi non ammettono l’esclusione o la limitazione di responsabilità per danni
+incidentali, consequenziali o di altro tipo, le suddette limitazioni o
+esclusioni potrebbero non essere applicabili al licenziatario. <b>Qualora la
+legge applicabile consenta al licenziatario di richiedere al produttore o
+all’installatore oppure a Microsoft il risarcimento di danni, anche nel caso in
+cui ciò non sia previsto dal presente contratto, tale risarcimento non potrà
+superare l’importo effettivamente pagato per il software (o l’importo di 50 USD
+nel caso in cui il licenziatario abbia ottenuto il software gratuitamente).</b></span></p><p class="MsoNormal" align="center" style="margin-bottom:10.0pt;text-align:center"><b><u><span lang="IT" style="font-size:11.0pt"><span style="text-decoration:none"></span></span></u></b></p><p class="MsoNormal" align="center" style="margin-bottom:10.0pt;text-align:center"><b><u><span lang="IT" style="font-size:11.0pt">Procedure per la Garanzia</span></u></b></p><p class="MsoNormal" style="margin-bottom:10.0pt"><span lang="IT" style="font-size: 11.0pt">Per ricevere l’assistenza prevista dalla garanzia o ottenere il
+rimborso, il licenziatario dovrà fornire una copia della prova di acquisto e
+conformarsi alle modalità di restituzione del produttore o dell’installatore,
+che potrebbero richiedere la restituzione del software unitamente al dispositivo
+sul quale è installato il software; l’etichetta con la scritta </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">Certificato di
+Autenticità</span><span lang="AR-SA">” </span><span lang="IT" style="font-size: 11.0pt">(</span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">Certificate
+of Authenticity</span><span lang="AR-SA">” </span><span lang="IT" style="font-size: 11.0pt">o </span><span lang="AR-SA">“</span><span lang="IT" style="font-size:11.0pt">COA</span><span lang="AR-SA">”</span><span lang="IT" style="font-size:11.0pt">) che include il
+codice Product Key (qualora sia stata fornita con il dispositivo) dovrà
+rimanervi affissa.</span></p><p class="MsoNormal" style="margin-bottom:10.0pt"><span lang="IT" style="font-size: 11.0pt">Il licenziatario potrà contattare il produttore o l’installatore
+all’indirizzo o al numero di telefono gratuito fornito insieme al dispositivo
+per informazioni su come ottenere i servizi previsti dalla garanzia del
+software. Nel caso in cui Microsoft sia il produttore del dispositivo o il
+licenziatario acquisti il software da un rivenditore, il licenziatario dovrà
+contattare Microsoft agli indirizzi riportati di seguito.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">1.      <u>Stati
+Uniti e Canada</u>. Per ricevere l’assistenza prevista dalla garanzia limitata
+o informazioni su come ottenere un rimborso per il software acquistato negli
+Stati Uniti o in Canada, il licenziatario potrà contattare Microsoft telefonicamente
+al numero (800) MICROSOFT, per posta all’indirizzo Microsoft Customer Service
+and Support, One Microsoft Way, Redmond, WA 98052-6399 oppure visitando la
+pagina (aka.ms/nareturns).</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">2.      <u>Europa,
+Medio Oriente e Africa</u>. Qualora il licenziatario abbia acquistato il
+software in Europa, Medio Oriente o Africa, dovrà contattare Microsoft Ireland
+Operations Limited, Customer Care Centre, Atrium Building Block B, Carmanhall
+Road, Sandyford Industrial Estate, Dublin 18, Ireland o la consociata Microsoft
+del proprio Paese (aka.ms/msoffices).</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">3.      <u>Australia</u>.
+Qualora il licenziatario abbia acquistato il software in Australia, potrà
+contattare Microsoft e inoltrare un reclamo al 13 20 58 o all’indirizzo
+Microsoft Pty Ltd, 1 Epping Road, North Ryde NSW 2113 Australia.</span></p><p class="MsoNormal" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt; margin-left:27.0pt;text-indent:-27.0pt"><span lang="IT" style="font-size:11.0pt">4.      <u>Altri
+Paesi</u>. Qualora il licenziatario abbia acquistato il software in un altro
+Paese, dovrà contattare la consociata Microsoft del proprio Paese
+(aka.ms/msoffices).</span></p><p class="MsoNormal" style="margin-bottom:10.0pt"><span lang="IT" style="font-size: 11.0pt"></span></p><p class="MsoNormal" style="margin-bottom:10.0pt"><span lang="IT" style="font-size: 11.0pt"></span></p><p class="MsoNormal" style="margin-bottom:10.0pt"><span lang="IT" style="font-size: 9.0pt">EULAID:April2018_UE_DCSTD_IT-IT</span></p><p class="MsoNormal" style="margin-bottom:10.0pt"><span lang="IT" style="font-size: 11.0pt"></span></p></div></body></html></div></div><div class="row-fluid" data-view4="1" data-view3="1" data-view2="1" data-view1="1" data-cols="1"><div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1"></div></div><div class="row-fluid" data-view4="1" data-view3="1" data-view2="1" data-view1="1" data-cols="1"><div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1">
+			
+		</div></div><div class="row-fluid" data-view4="1" data-view3="1" data-view2="1" data-view1="1" data-cols="1"><div class="r-mstLcpFlyout bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 span" id="divLocaleDetail"><div class="r-mstLcpLangSites CSPvNext "><div class="row-fluid" data-view4="1" data-view3="1" data-view2="1" data-view1="1" data-cols="1"><div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1"><img src="https://c.s-microsoft.com/en-us/CMSImages/flyoutclosebtn.png?version=c7a785bc-518b-cb99-2b0d-641df98db02d" class="mscom-image r-mstLcpClose" width="20" height="20" /></div></div><div class="row-fluid" data-view4="1" data-view3="1" data-view2="1" data-view1="1" data-cols="1"><div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1"><span class="r-mstLcpAllSitesText ">This site in other countries/regions:</span><span class="r-mstLcpSearch r-mstLcpSearchContainter"><span class="r-mstLcpSearchBorder"><input title="Search for a language or locale" class="r-mstLcpSearchText" type="text" /><img src="https://c.s-microsoft.com/en-us/CMSImages/flyoutsearchbtn.png?version=7d3c4667-fb5f-19fb-417a-f675c384cbbb" class="mscom-image r-mstLcpSearchImg" width="20" height="20" /></span></span></div></div><div class="row-fluid" data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1"><div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1"><div class="CSPvNext"><div class="localeLinkList row-fluid" data-view4="4" data-view3="4" data-view2="2" data-view1="1" data-cols="4"><div class="span bp0-col-1-1 bp1-col-2-1 bp2-col-4-1 bp3-col-4-1"><ul bi:type="list" xmlns:bi="urn:schemas-microsoft-com:mscom:bi"><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/ar-sa/useterms">المملكة العربية السعودية - العربية</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/ar-eg/useterms">مصر - العربية</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/ar-gulf/useterms">اختر منطقتك - العربية</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/ar-iq/useterms">العراق - العربية</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/ar-ly/useterms">ليبيا - العربية</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/bg-bg/useterms">България - Български</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/zh-cn/useterms">中国 - 简体中文</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/zh-hk/useterms">香港特別行政區 - 繁體中文</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/zh-tw/useterms">台灣 - 繁體中文</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/cs-cz/useterms">Česká Republika - Čeština</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/da-dk/useterms">Danmark - Dansk</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/nl-nl/useterms">Nederland - Nederlands</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/nl-be/useterms">België - Nederlands</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/en-au/useterms">Australia - English</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/en-ca/useterms">Canada - English</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/en-cy/useterms">Cyprus - English</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/en-in/useterms">India - English</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/en-mt/useterms">Malta - English</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/en-ph/useterms">Philippines - English</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/en-sg/useterms">Singapore - English</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/en-lk/useterms">Sri Lanka - English</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/en-gb/useterms">United Kingdom - English</a></li></ul></div><div class="span bp0-col-1-1 bp1-col-2-1 bp2-col-4-1 bp3-col-4-1"><ul bi:type="list" xmlns:bi="urn:schemas-microsoft-com:mscom:bi"><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/en-us/useterms">United States - English</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/en-my/useterms">Malaysia - English</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/en-ng/useterms">Nigeria - English</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/en-nz/useterms">New Zealand - English</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/en-pk/useterms">Pakistan - English</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/en-pr/useterms">Peurto Rico - English</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/en-za/useterms">South Africa - English</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/en-ie/useterms">Ireland - English</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/en-hk/useterms">Hong Kong SAR - English</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/en-gulf/useterms">Gulf - English</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/en-westindies/useterms">West Indies - English</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/et-ee/useterms">Eesti - Eesti</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/fi-fi/useterms">Suomi - Suomen</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/fr-be/useterms">Belgique - Français</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/fr-ca/useterms">Canada - Français</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/fr-fr/useterms">France - Français</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/fr-lu/useterms">Luxembourg - Français</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/fr-ch/useterms">Suisse - Français</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/fr-dz/useterms">Algeria - Français</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/fr-ma/useterms">Morocco - Français</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/fr-tn/useterms">Tunisia - Français</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/de-at/useterms">Österreich - Deutsch</a></li></ul></div><div class="span bp0-col-1-1 bp1-clear bp1-col-2-1 bp2-col-4-1 bp3-col-4-1"><ul bi:type="list" xmlns:bi="urn:schemas-microsoft-com:mscom:bi"><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/de-de/useterms">Deutschland - Deutsch</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/de-ch/useterms">Schweiz - Deutsch</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/el-gr/useterms">Ελλάδα - Ελληνικά</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/he-il/useterms">ישראל - עברית</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/hu-hu/useterms">Magyarország - Magyar</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/it-it/useterms">Italia - Italiano</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/ja-jp/useterms">日本 - 日本語</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/ko-kr/useterms">대한민국 - 한국어</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/lv-lv/useterms">Latvija - Latviešu</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/lt-lt/useterms">Lietuva - Lietuvių</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/nb-no/useterms">Norge - Bokmål</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/pl-pl/useterms">Polska - Polski</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/pt-pt/useterms">Portugal - Português</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/pt-br/useterms">Brasil - Português</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/ro-ro/useterms">România - Română</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/ru-by/useterms">Беларусь - Беларуская</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/ru-ru/useterms">Россия - Русский</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/sk-sk/useterms">Slovensko - Slovenčina</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/sl-si/useterms">Slovenija - Slovenščina</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/es-ar/useterms">Argentina - Español</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/es-bo/useterms">Bolivia - Español</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/es-cl/useterms">Chile - Español</a></li></ul></div><div class="span bp0-col-1-1 bp1-col-2-1 bp2-col-4-1 bp3-col-4-1"><ul bi:type="list" xmlns:bi="urn:schemas-microsoft-com:mscom:bi"><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/es-co/useterms">Columbia -Español</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/es-cr/useterms">Costa Rica - Español</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/es-do/useterms">Dominican Republic - Español</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/es-ec/useterms">Ecuador - Español</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/es-sv/useterms">El Salvador - Español</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/es-gt/useterms">Guatemala - Español</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/es-hn/useterms">Honduras - Español</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/es-mx/useterms">México - Español</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/es-ni/useterms">Nicaragua - Español</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/es-pa/useterms">Panamá - Español</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/es-py/useterms">Paraguay - Español</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/es-pe/useterms">Perú - Español</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/es-pr/useterms">Puerto Rico - Español</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/es-es/useterms">España - Español</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/es-uy/useterms">Uruguay - Español</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/es-ve/useterms">Venezuela - Español</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/sv-se/useterms">Sverige - Svenska</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/th-th/useterms">ไทย - ไทย</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/tr-tr/useterms">Türkiye - Türkçe</a></li><li><a target="_blank" class="mscom-link" href="http://www.microsoft.com/uk-ua/useterms">Україна - Українська</a></li></ul></div></div></div></div></div></div></div></div></body></html>
