@@ -29,6 +29,7 @@
 * [2018 - Classifica delle soluzioni Firewall e UTM secondo Gartner nel triennio 2015-2017](security/2018-01/Classifica%20delle%20soluzioni%20Firewall%20e%20UTM%20secondo%20Gartner%20nel%20triennio%202015-2017.pdf){:target="_blank"}
 
 ## Server
+* [2019 - Configurazione del Modern Backup Storage in System Center Data Protection Manager 1807](server/2019-08/Configurazione%20del%20Modern%20Backup%20Storage%20in%20System%20Center%20Data%20Protection%20Manager%201807.pdf){:target="_blank"}
 * [2019 - Installazione System Center Data Protection Manager 1807](server/2019-07/Installazione%20System%20Center%20Data%20Protection%20Manager%201807.pdf){:target="_blank"}
 * [2015 - Manutenzione di WSUS](server/2015%20-%20Manutenzione%20WSUS.pdf){:target="_blank"}
 * [2014 - Windows Server 2012 R2 Configurazione reti Hyper-V cluster](server/2014%20-%20WS2012R2%20Configurazione%20reti%20Hyper-V%20cluster.pdf){:target="_blank"}
