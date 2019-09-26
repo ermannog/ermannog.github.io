@@ -1,6 +1,6 @@
 # Meetup TTG - ICTPower (26 set 2019 Torino)
 
-![](TTG-2019-08-26.png)
+![](TTG-2019-09-26.png)
 
 __Abstract:__
 
