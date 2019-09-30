@@ -12,4 +12,4 @@ __Slide:__
 
 __Video:__ 
 
-
+[![Meetup TTG - ICTPower 26 set 2019 Torino](https://i.ytimg.com/vi/_A9CGc3dUZA/0.jpg)](https://www.youtube.com/watch?v=_A9CGc3dUZA "Meetup TTG - ICTPower 26 set 2019 Torino"){:target="_blank"}
