@@ -11,4 +11,4 @@ Servizi Desktop remoto evoluti insieme a Windows Server per diventare una delle 
 
 __Slide:__
 
-[Fondamenti e utilizzo del protocollo IPv6 in ambiente Windows.pdf](2019-11-(What's%20new%20in%20Remote%20Desktop%20Services%20on%20Windows%20Server%202019.pdf){:target="_blank"}
+[What's new in Remote Desktop Services on Windows Server 2019.pdf](What's%20new%20in%20Remote%20Desktop%20Services%20on%20Windows%20Server%202019.pdf){:target="_blank"}
