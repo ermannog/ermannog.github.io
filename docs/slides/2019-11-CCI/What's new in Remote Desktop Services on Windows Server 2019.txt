@@ -1,0 +1,22 @@
+Titolo: What's new in Remote Desktop Services on Windows Server 2019 and Azure
+
+Abtract:
+I Remote Desktop Services si sono evoluti nelle varie versioni di Windows Server diventando una piattaforma tramite cui fornire agli utenti l'accesso centralizzato alle applicazioni sia in abiente desktop che in scenari di mobiltà.
+Nella sessione verranno analizzate oltre sia le novità introdotte in Windows Server 2019 che le possibilità offerte da Azure per implementare scenari di virtualizzazione evoluti.
+
+Servizi Desktop remoto evoluti insieme a Windows Server per diventare una delle piattaforme principali per fornire agli utenti l'accesso centralizzato alle applicazioni di cui hanno bisogno. In questa sessione, scopri i miglioramenti di Windows Server 2019 e come questi combinati con la potenza di Azure per soddisfare le tue esigenze di virtualizzazione.
+
+
+Sessioni Ignite di rifermento:
+BRK2242 - What's new in Remote Desktop Services on Windows Server 2019 
+https://myignite.techcommunity.microsoft.com/sessions/65999?source=sessions
+https://www.youtube.com/watch?v=8XSqVEKKuco
+
+BRK2300 - Windows Virtual Desktop overview
+https://myignite.techcommunity.microsoft.com/sessions/66054?source=sessions
+
+BRK3312 - Windows Virtual Desktop deep dive
+https://myignite.techcommunity.microsoft.com/sessions/64600?source=sessions
+
+BRK2424 - New multi-session virtualization capabilities in Windows
+https://myignite.techcommunity.microsoft.com/sessions/66731
