@@ -11,8 +11,4 @@ Servizi Desktop remoto evoluti insieme a Windows Server per diventare una delle 
 
 __Slide:__
 
-[Fondamenti e utilizzo del protocollo IPv6 in ambiente Windows.pdf](Fondamenti%20e%20utilizzo%20del%20protocollo%20IPv6%20in%20ambiente%20Windows.pdf){:target="_blank"}
-
-__Video:__ 
-
-[![Meetup TTG - ICTPower 26 set 2019 Torino](https://i.ytimg.com/vi/_A9CGc3dUZA/0.jpg)](https://www.youtube.com/watch?v=_A9CGc3dUZA "Meetup TTG - ICTPower 26 set 2019 Torino"){:target="_blank"}
+[Fondamenti e utilizzo del protocollo IPv6 in ambiente Windows.pdf](2019-11-(What's%20new%20in%20Remote%20Desktop%20Services%20on%20Windows%20Server%202019.pdf){:target="_blank"}
