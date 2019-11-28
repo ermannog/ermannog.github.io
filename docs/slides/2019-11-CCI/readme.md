@@ -1,6 +1,6 @@
 # Cloud Conference Italia (27 Novembre 2019 Treviso)
 
-![](TTG-2019-09-26.png)
+![](CCI-2019-11-27.png)
 
 __Abstract:__
 
