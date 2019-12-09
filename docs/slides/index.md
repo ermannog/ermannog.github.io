@@ -1,7 +1,7 @@
 [Home](/)
 # Slides
  
-* __05 dec 2019 WPC 2019:__ [Normative regolamenti e indicazioni tecnicheper la sicurezza ICT per PA e aziende private](2019-12-WPC){:target="_blank"}
+* __05 dec 2019 WPC 2019:__ [Normative regolamenti e indicazioni tecniche per la sicurezza ICT per PA e aziende private](2019-12-WPC){:target="_blank"}
 * __27 nov 2019 Cloud Conference Italia:__ [What's new in Remote Desktop Services on Windows Server 2019](2019-11-CCI){:target="_blank"}
 * __26 set 2019 Meetup TTG - ICTPower:__ [Fondamenti e utilizzo del protocollo IPv6 in ambiente Windows](2019-09-TTG){:target="_blank"}
 * __13 dec 2018 Meetup TTG - ICTPower:__ [Public Key Infrastructure Windows e Let's Encrypt](2018-12-TTG){:target="_blank"}
