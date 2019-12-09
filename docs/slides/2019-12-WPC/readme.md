@@ -1,6 +1,6 @@
 # Wpc 2019 (5 Dicembre 2019 Milano)
 
-![](CCI-2019-11-27.png)
+![](WPC076.png)
 
 __Abstract:__
 
