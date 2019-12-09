@@ -8,4 +8,4 @@ __Abstract:__
 
 __Slide:__
 
-[What's new in Remote Desktop Services on Windows Server 2019.pdf](What's%20new%20in%20Remote%20Desktop%20Services%20on%20Windows%20Server%202019.pdf){:target="_blank"}
+[WPC076_slides.pdf](WPC076_slides.pdf){:target="_blank"}
