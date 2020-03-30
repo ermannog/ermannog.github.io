@@ -11,3 +11,6 @@ __Slide:__
 
 [Come adeguare l'infrastruttura IT a normative regolamenti per la sicurezza ICT.pdf](Come%20adeguare%20l'infrastruttura%20IT%20a%20normative%20regolamenti%20per%20la%20sicurezza%20ICT.pdf){:target="_blank"}
 
+__Video:__ 
+
+[![Meetup TTG - ICTPower 13 dec 2018 Torino](http://img.youtube.com/vi/i7uFShDnDPk/0.jpg)](https://www.youtube.com/watch?v=R324-__GDxc "Evento online del 27 Marzo - Adeguare l’infrastruttura IT a normative e regolamenti"){:target="_blank"}
