@@ -1,4 +1,4 @@
-# Wpc 2019 (5 Dicembre 2019 Milano)
+# PowerCON 2020 Online (8 Marzo 2020)
 
 ![](WPC076.png)
 
