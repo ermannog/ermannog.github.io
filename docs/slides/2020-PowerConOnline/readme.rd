@@ -1,6 +1,6 @@
 # PowerCON 2020 Online (8 Marzo 2020)
 
-![](WPC076.png)
+![](PowerCon%202020%20Online.png)
 
 __Abstract:__
 
