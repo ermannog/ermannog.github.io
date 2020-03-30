@@ -9,4 +9,4 @@ Nella sessione abbiamo analizzato le indicazioni tecniche che possono guidare az
 
 __Slide:__
 
-[WPC076_slides.pdf](WPC076_slides.pdf){:target="_blank"}
+[WPC076_slides.pdf](Come%20adeguare%20l'infrastruttura%20IT%20a%20normative%20regolamenti%20per%20la%20sicurezza%20ICT.pdf){:target="_blank"}
