@@ -13,4 +13,4 @@ __Slide:__
 
 __Video:__ 
 
-[![Meetup TTG - ICTPower 13 dec 2018 Torino](http://img.youtube.com/vi/i7uFShDnDPk/0.jpg)](https://www.youtube.com/watch?v=R324-__GDxc "Evento online del 27 Marzo - Adeguare l’infrastruttura IT a normative e regolamenti"){:target="_blank"}
+[![Meetup TTG - ICTPower 13 dec 2018 Torino](http://img.youtube.com/vi/R324-__GDxc/0.jpg)](https://www.youtube.com/watch?v=R324-__GDxc "Evento online del 27 Marzo - Adeguare l’infrastruttura IT a normative e regolamenti"){:target="_blank"}
