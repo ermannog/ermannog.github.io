@@ -98,6 +98,12 @@
 > This article suggests best practices that can help you avoid configurations that experience poor performance because of design or configuration limitations in Windows Server Update Services (WSUS).
 
 
+**[KB894199](https://support.microsoft.com/en-us/help/894199/software-update-services-and-windows-server-update-services-2020):**
+*`Description of Software Update Services and Windows Server Update Services changes in content for 2020`*
+> This article applies only to releases on the Windows Update website. This article does not apply to security releases for products that are not supported by Windows Update.
+>
+> This article is intended for use by administrators of Windows Server Update Services (WSUS), Windows Update, and Microsoft Update services. This article contains a list of content changes that have been made available on the second Tuesday of every month for WSUS, Windows Update, and Microsoft Update. Administrators can use this list both as a quick reference to content changes that have been made during routine synchronizations and as an explanation of these changes.
+
 **[KB4469275](https://support.microsoft.com/en-us/help/4469275/introduction-to-the-account-lockout-and-management-tools):**
 *`This article introduces Account Lockout and Management Tools`*
 > https://www.microsoft.com/download/details.aspx?id=18465
