@@ -8,5 +8,5 @@ __Abstract:__
 
 __Slide:__
 
-[Migrazione Active Directory a Windows Server 2019.pdf](Come%20adeguare%20l'infrastruttura%20IT%20a%20normative%20regolamenti%20per%20la%20sicurezza%20ICT.pdf){:target="_blank"}
+[Migrazione Active Directory a Windows Server 2019.pdf](Migrazione%20Active%20Directory%20a%20Windows%20Server%202019.pdf){:target="_blank"}
 
