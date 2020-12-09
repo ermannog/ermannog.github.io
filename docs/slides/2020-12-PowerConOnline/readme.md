@@ -1,6 +1,6 @@
 # PowerCON 2020 Online (10 Dicembre 2020)
 
-![](PowerCon%202020%20Online.png)
+![](PowerCon%202020-12%20Online%20.png)
 
 __Abstract:__
 
