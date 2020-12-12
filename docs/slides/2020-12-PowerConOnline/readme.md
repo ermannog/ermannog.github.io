@@ -10,3 +10,6 @@ __Slide:__
 
 [Migrazione Active Directory a Windows Server 2019.pdf](Migrazione%20Active%20Directory%20a%20Windows%20Server%202019.pdf){:target="_blank"}
 
+__Video:__
+
+[![PowerCON 2020 Online (11 Dicembre 2020)](http://img.youtube.com/vi/djeDLfT8NUI/0.jpg)](https://www.youtube.com/watch?v=djeDLfT8NUI "Migrare Active Directory a Windows Server 2019"){:target="_blank"}
