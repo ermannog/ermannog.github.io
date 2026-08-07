@@ -20,10 +20,32 @@ iframe {
     height: 100vh;
     border: 0;
 }
+
+h3, p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
 </style>
 
 </head>
 <body>
+
 <iframe src="https://www.arpa.piemonte.it/rischi_naturali/widget/comuni/004163"></iframe>
+
+<h3>Ultima immagine radar</h3>
+<img src="https://www.arpa.piemonte.it/static/images/radar.gif" alt="Immagine dinamica con aree di intensità pioggia" loading="lazy"/>
+<p>Mappa istantanea di precipitazione ore UTC. Dati aggiornati ogni 15 minuti.</p>
+
+<h3>Ultima immagine Meteosat</h3>
+<img src="https://www.arpa.piemonte.it/static/images/msg_regione.png" alt="Immagine satellitare Meteosat con situazione nuvolosità" loading="lazy"/>
+<p>Immagine tri-spettrale da satellite Meteosat Second Generation, aggiornata ogni 3 ore.<br>copyright <a href="https://www.eumetsat.int/" target="_blank" rel="noopener noreferrer">EUMETSAT</a></p>
+
 </body>
 </html>
