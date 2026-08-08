@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Allerta meteo - Boves</title>
+<meta http-equiv="refresh" content="120">
+<link href="https://www.arpa.piemonte.it/rischi_naturali/themes/custom/arpabs5/images/logo-arpa-sticky.png" rel="icon" type="image/png"/>
+
+<style>
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+div {
+    margin: 0;
+    width: 100%;
+}
+
+iframe {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    border: 0;
+}
+
+h3{
+    text-align: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+p {
+    margin: 10px;
+}
+
+</style>
+
+</head>
+<body>
+
+<iframe src="https://www.arpa.piemonte.it/rischi_naturali/widget/comuni/004028"></iframe>
+
+<hr>
+
+<iframe src="https://www.arpa.piemonte.it/rischi_naturali/widget/caldo/cuneo"></iframe>
+
+<hr>
+
+<h3>Previsioni meteorologiche</h3>
+<img src="https://www.arpa.piemonte.it/rischi_naturali/boll/bollettino_meteotestuale.png" alt="Previsioni meteorologiche" loading="lazy"/>
+<div><p>Il Bollettino descrive la situazione meteorologica in atto sul territorio regionale e prevista per tre giorni successivi.<br>
+Viene emesso tutti i giorni dell'anno, entro le ore 13.00, dal Servizio Meteorologico Regionale dell’Agenzia.</p></div>
+
+<hr>
+
+<h3>Radar</h3>
+<img src="https://www.arpa.piemonte.it/static/images/radar.gif" alt="Radar" loading="lazy"/>
+<div><p>Immagine da mosaico radar (aggiornamento 5 min)<br>
+L'immagine mostra una mappa di stima dell’intensità di precipitazione al suolo derivante dal mosaico dei radar meteorologici di Bric della Croce e Monte Settepani.<br><br>
+Scala di intensità di precipitazioni:<br> 
+<b>deboli:</b> intensità inferiori a 1-2 mm/h,<br>
+<b>moderate:</b>  fino a 5-10 mm/h,<br>
+<b>forti:</b> oltre 10 mm/h.<br><br>
+Per facilitare la localizzazione dei fenomeni meteorologici, sulla mappa sono indicati i capoluoghi di provincia, i limiti amministrativi della regione Piemonte (linea nera), quelli provinciali (linea grigia) e le autostrade (linea bianca).</p></div>
+
+<hr>
+
+<h3>Satellite</h3>
+<img src="https://www.arpa.piemonte.it/static/images/Euro2big.gif" alt="Satellite" loading="lazy"/>
+<div><p>Animazione immagini satellitari nel canale dell’infrarosso, aggiornata ogni 3 ore.<br>
+La mappa mostra le immagini delle nubi con una scala di colore in base alla temperatura del top delle nubi.<br>
+Si possono distinguere le nuvole basse e le nebbie in grigio, le nubi medie e alte (quindi più fredde) colorate secondo la scala riportata in basso in legenda (dal colore rosso, corrispondente ad una temperatura di -20°C, fino al rosa, che indica -65°C).<br>
+I tempi sono espressi nel sistema UTC: per determinare l'ora locale in Italia si deve sommare un'ora quando è in vigore l'orario invernale (CET), due ore quando è in vigore l'orario estivo (CEST).</p></div>
+
+<hr>
+
+<h3>Precipitazioni ultime ore</h3>
+<img src="https://www.arpa.piemonte.it/static/images/PLUV_CUM_03h.png" alt="Precipitazioni ultime ore" loading="lazy"/>
+<div><p>Mappa della precipitazione cumulata sul Piemonte nelle <b>ultime 3 ore</b>, basata su dati osservati dai pluviometri della rete regionale di monitoraggio di Arpa Piemonte.</p></div>
+
+<hr>
+
+<h3>Radiosondaggio Cuneo</h3>
+<img src="https://www.arpa.piemonte.it/static/images/radiosondaggio_cuneo.png" alt="Radiosondaggio Cuneo" loading="lazy"/>
+<div><p>Grafico del radiosondaggio di Cuneo Levaldigi. Fornisce l'andamento con la quota di grandezze meteorologiche quali la temperatura, l'umidità relativa e direzione e velocità del vento, da cui si ricavano importanti informazioni sul profilo verticale dell'atmosfera.</p></div>
+
+<hr>
+
+<iframe src="https://docs.google.com/gview?url=https://www.arpa.piemonte.it/rischi_naturali/boll/bollettino_analisimeteo.pdf&embedded=true"></iframe>
+
+</body>
+</html>
