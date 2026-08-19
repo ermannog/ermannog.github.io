@@ -51,7 +51,7 @@ p {
 
 <hr>
 
-<iframe src="https://www.arpa.piemonte.it/rischi_naturali/widget/caldo/cuneo"></iframe>
+<iframe id="widget-ondate-calore"></iframe>
 
 <hr>
 
@@ -113,9 +113,12 @@ I tempi sono espressi nel sistema UTC: per determinare l'ora locale in Italia si
     const params = new URLSearchParams(window.location.search);
     const comune = params.get("comune");
     const codice = params.get("codice");
+    const capoluogo = params.get("capoluogo");
     document.title = document.title + " - " + comune;
-    const urlWidget = "https://www.arpa.piemonte.it/rischi_naturali/widget/comuni/" + codice;
-    document.getElementById("widget-allerta-meteo").src = urlWidget;
+    const urlWidgetAllertaMeteo = "https://www.arpa.piemonte.it/rischi_naturali/widget/comuni/" + codice;
+    document.getElementById("widget-allerta-meteo").src = urlWidgetAllertaMeteo;
+    const urlWidgetOndateCalore = "https://www.arpa.piemonte.it/rischi_naturali/widget/caldo/" + capoluogo;
+    document.getElementById("widget-ondate-calore").src = urlWidgetOndateCalore;
 </script>
 </body>
 </html>
